@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle - AI Technology & Startup HTML Template</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/DCDV_FULL_B.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                               
+                                
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Services
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="services.html">Services</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">Service Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Demo
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-1">
+                                        <li class="sub-menu--item">
+                                            <a href="index.html">home 01</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-2.html">home 02</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-3.html">home 03</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-4.html"> home 04</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Pages
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-3">
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">blogs
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" /></a>
+                                            <ul class="sub-menu shape-none" id="submenu-4">
+                                                <li class="sub-menu--item">
+                                                    <a href="blog.html">blogs</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="blog-details.html">blog details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Team
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-5">
+                                                <li class="sub-menu--item">
+                                                    <a href="teams.html">Teams</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="team-details.html">Teams Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-6">
+                                                <li class="sub-menu--item">
+                                                    <a href="faq.html">FAQ-1</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="faq-2.html">FAQ-2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-7">
+                                                <li class="sub-menu--item">
+                                                    <a href="portfolio.html">Portfolio</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="portfolio-details.html">Portfolio Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
+                                            </a>
+                                        </li>
+                                        
+
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Utilities
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-8">
+                                                <li class="sub-menu--item">
+                                                    <a href="error-404.html">Error 404</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="login.html">Login</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="signup.html">Signup</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="reset-password.html">Reset Password</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                        <a href="login.html"
+                            class="button hidden rounded-[50px] border-[#7F8995] bg-transparent text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Login</a>
+                        <a href="signup.html"
+                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Sign
+                            up free</a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <main class="main-wrapper relative overflow-hidden">
+                     <!--...::: Hero Section Start :::... -->
+            <section id="hero-section">
+                <!-- Section Spacer -->
+                <div class="pt-28 lg:pt-40 xl:pt-[195px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <!-- Hero Content -->
+                        <div class="grid items-center gap-10 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.3fr)_1fr]">
+                            <!-- Section Content Block -->
+                            <div>
+                                <h2
+                                    class="font-raleway text-5xl md:text-6xl lg:text-7xl xl:text-[100px] xxl:text-[120px]">
+                                    Think Big. Build Fast.</h2>
+                            </div>
+                            <!-- Section Content Block -->
+                            <div class="jos flex flex-col gap-10 md:gap-[50px]">
+                                <p class="text-lg font-semibold leading-[1.33] md:text-xl lg:text-2xl">
+                                     Leverage the power of no-code and low-code platforms to build custom applications, automate workflows, and launch digital products faster than ever before. 
+                                </p>
+                               
+                            </div>
+                        </div>
+                        <!-- Hero Content -->
+                    </div>
+                    <!-- Section Container -->
+
+                    <!-- Hero Image -->
+                    <div class="jos mx-auto mt-12 max-w-[1500px] px-5 md:mt-20" data-jos_animation="zoom">
+                        <img src="assets/img/nc.png" alt="nocode building blocks" width="1500" height="700"
+                            class="h-auto w-full" />
+                    </div>
+                    <!-- Hero Image -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Hero Section End :::... -->
+
+           <br><br><br>
+
+            <!--...::: Content Section Start :::... -->
+            <section id="content-section-1">
+                <!-- Section Spacer -->
+                <div class="pb-20 xl:pb-[150px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div
+                            class="grid grid-cols-1 items-center gap-12 md:grid-cols-1 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28">
+                           
+                            <!-- Content Right Block -->
+                            <div class="jos order-1" data-jos_animation="fade-right">
+                                <!-- Section Content Block -->
+                                <div class="mb-6">
+                                    <h2>Low Code and No Code services</h2>
+                                </div>
+                                <!-- Section Content Block -->
+                                <div class="text-lg leading-[1.4] lg:text-[21px]">
+                                    <p class="mb-7 last:mb-0">
+                                        In today's fast-paced digital landscape, businesses need to develop and deploy applications quickly and efficiently. Our no-code and low-code platforms empower you to build internal tools and MVPs at 10x the speed of traditional development, and at a fraction of the cost.
+                                    </p>
+                                </div>
+                                <ul
+                                    class="mt-8 grid gap-x-6 gap-y-8 sm:grid-cols-2 md:grid-cols-1 xl:mt-14 xl:grid-cols-2">
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/trending-up-icon.svg" alt="trending-up-icon"
+                                                width="50" height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Internal Tooling & Operations</h5>
+                                        <p class="flex flex-col gap-y-4">
+                                            <li><b>Workflow Automation: </b>Automate repetitive tasks like employee onboarding, purchase order approvals, and data entry. (Tools: Zapier, Make, Automate.io)</li>
+                                            <li><b>Data Management:</b>Build custom databases and dashboards to track key metrics, manage inventory, or analyze customer data. (Tools: Airtable, Notion, Coda)</li>
+                                            <li><b>Project Management:</b>Create project tracking systems, task management tools, and collaboration platforms. (Tools: Monday.com, Asana, Trello (with integrations))</li>                                            
+                                        </p>
+                                    </li>
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/cog-icon.svg" alt="cog-icon" width="50"
+                                                height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Web & Mobile Applications</h5>
+                                        <p class="flex flex-col gap-y-4">
+                                           <li><b>eCommerce Stores:</b> Launch online stores with product catalogs, shopping carts, and payment gateways. (Tools: Shopify, Webflow, Bubble)</li> 
+                                            <li><b>Customer Portals:</b> Create secure portals for customers to access information, track orders, and manage their accounts. (Tools: Memberstack, Outseta)</li>
+                                            <li><b>Mobile Apps:</b> Develop basic mobile applications for tasks like data collection, event scheduling, or simple games. (Tools: Adalo, Glide)</li>
+
+                                        </p>
+                                    </li>
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/cog-icon.svg" alt="cog-icon" width="50"
+                                                height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Business Process Management</h5>
+                                         <p class="flex flex-col gap-y-4">
+                                             <li><b>CRM Systems:</b> Build custom CRM systems to manage leads, track customer interactions, and automate sales processes. (Tools: Zoho Creator, Salesforce Platform)</li>
+                                            <li><b>HR Management:</b> Develop applications for recruitment, onboarding, performance reviews, and employee training. (Tools: BambooHR, Workday)</li>
+<li><b>Finance Management:</b> Create tools for expense tracking, invoice processing, and financial reporting. (Tools: Xero, QuickBooks Online)</li></p>
+                                    </li>
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/cog-icon.svg" alt="cog-icon" width="50"
+                                                height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Rapid Prototyping & MVPs</h5>
+                                         <p class="flex flex-col gap-y-4">
+                                           <li><b>Concept Validation:</b> Quickly build functional prototypes to test ideas and gather user feedback before investing in full-scale development.</li>
+<li><b>MVP Development:</b> Create minimum viable products (MVPs) to launch quickly and iterate based on market feedback.</li>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Content Right Block -->
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Content Section End :::... -->
+            
+            <!--...::: Working Process Start :::... -->
+            <section id="section-working-process">
+                <div class="bg-[#EDEDE0] px-5 sm:px-[50px]">
+                    <div class="relative z-[1] mx-auto max-w-full rounded-[20px] bg-black">
+                        <!-- Section Spacer -->
+                        <div class="py-16 sm:px-10 md:px-20 lg:py-20 xl:px-[100px] xl:py-[130px]">
+                            <!-- Section Container -->
+                            <div class="global-container">
+                                <!-- Section Content Block -->
+                                <div
+                                    class="jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]">
+                                    <h2
+                                        class="font-raleway text-4xl font-medium leading-[1.06] text-white sm:text-[44px] lg:text-[56px] xl:text-[80px]">
+                                        Advantages of No Code and Low Code
+                                    </h2>
+                                </div>
+                                <!-- Section Content Block -->
+
+                                <!-- Work Process List -->
+                                <div class="grid grid-flow-dense gap-6 lg:grid-cols-2 xl:grid-cols-3">
+                                    <!-- Work Process Item -->
+                                    <div
+                                        class="order-1 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]">
+                                        <div class="h-10 w-auto xxl:h-[60px]">
+                                            <img src="assets/img/th-3/icon-black-work-process-1.svg"
+                                                alt="working-process-icon" width="62" height="60" class="h-full" />
+                                        </div>
+                                        <div class="font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl">
+                                            Rapid Application Development
+                                        </div>
+                                        <p class="text-xl leading-[1.33] lg:text-2xl">
+                                            Drag-and-drop interfaces and pre-built modules enable you to create sophisticated applications without writing a single line of code.
+                                        </p>
+                                      
+                                    </div>
+                                    <!-- Work Process Item -->
+                                    <!-- Work Process Item -->
+                                    <div
+                                        class="order-2 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]">
+                                        <div class="h-10 w-auto xxl:h-[60px]">
+                                            <img src="assets/img/th-3/icon-black-work-process-4.svg"
+                                                    alt="working-process-icon" width="65" height="60" class="h-full" />
+                                        </div>
+                                        <div class="font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl">
+                                            Cost-Effectiveness
+
+                                        </div>
+                                        <p class="text-xl leading-[1.33] lg:text-2xl">
+Reduce development costs significantly by eliminating the need for large development teams and complex coding processes.
+
+
+                                        </p>
+                                       
+                                    </div>
+                                    <!-- Work Process Item -->
+                                    <!-- Work Process Item -->
+                                    <div
+                                        class="order-3 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]">
+                                        <div class="h-10 w-auto xxl:h-[60px]">
+                                            <img src="assets/img/th-3/icon-black-work-process-3.svg"
+                                                alt="working-process-icon" width="60" height="60" class="h-full" />
+                                        </div>
+                                        <div class="font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl">
+                                            Increased Agility
+
+                                        </div>
+                                        <p class="text-xl leading-[1.33] lg:text-2xl">
+                                            Quickly adapt to changing business requirements and iterate on your applications with ease.
+                                        </p>
+                                       
+                                    </div>
+                                    <!-- Work Process Item -->
+
+                                    <div
+                                        class="order-1 col-span-full grid gap-6 lg:grid-cols-2 xl:order-2 xl:grid-cols-2">
+                                        <!-- Work Process Item -->
+                                        <div
+                                            class="col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]">
+                                            <div class="h-10 w-auto xxl:h-[60px]">
+                                                <img src="assets/img/th-3/icon-black-work-process-4.svg"
+                                                    alt="working-process-icon" width="65" height="60" class="h-full" />
+                                            </div>
+                                            <div class="font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl">
+                                                Empowered Citizen Developers
+                                            </div>
+                                            <p class="text-xl leading-[1.33] lg:text-2xl">
+                                                Enable business users with limited coding experience to actively participate in the development process.
+
+
+                                            </p>
+                                            
+                                        </div>
+                                        <!-- Work Process Item -->
+                                        <!-- Work Process Item -->
+                                        <div
+                                            class="col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]">
+                                            <div class="h-10 w-auto xxl:h-[60px]">
+                                                <img src="assets/img/th-3/icon-black-work-process-5.svg"
+                                                    alt="working-process-icon" width="40" height="60" class="h-full" />
+                                            </div>
+                                            <div class="font-raleway text-2xl font-bold leading-[1.33] lg:text-3xl">
+                                                Improved User Experience
+                                            </div>
+                                            <p class="text-xl leading-[1.33] lg:text-2xl">
+                                                Low-code/no-code platforms simplify user experience (UX) design, enabling developers to build user-friendly applications with intuitive interfaces and seamless user flows, without complex coding.
+                                            </p>
+                                            
+                                        </div>
+                                        <!-- Work Process Item -->
+                                    </div>
+                                </div>
+                                <!-- Work Process List -->
+                            </div>
+                            <!-- Section Container -->
+                        </div>
+                        <!-- Section Spacer -->
+
+                        <!-- Vertical Line -->
+                        <div class="absolute left-0 top-0 -z-[1] flex h-full w-full justify-evenly">
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                            <div class="h-full w-[1px] bg-[#121212]"></div>
+                        </div>
+                        <!-- Vertical Line -->
+                    </div>
+                </div>
+            </section>
+            <!--...::: Working Process End :::... -->
+
+           <br><br><br>
+
+            <!--...::: Funfact Section Start :::... -->
+            <section id="funfact-section">
+                <div class="mx-auto max-w-[1500px] px-5">
+                    <div
+                        class="jos grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] xl:grid-cols-[minmax(400px,_1fr)_1.5fr] xxl:grid-cols-[1fr_minmax(800px,_1fr)]">
+                        <!-- Funfact Left Block -->
+                        <div class="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
+                            <img src="assets/img/th-1/funfact-image.jpg" alt="funfact-image" width="721" height="784"
+                                class="h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full" />
+                            <!-- Video Play Button -->
+                            <a data-fslightbox="gallery" href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+                                class="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2">
+                                <div
+                                    class="relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-black text-lg font-bold backdrop-blur-[2px] transition-all duration-300 hover:bg-colorOrangyRed hover:text-white">
+                                    Play
+                                    <div
+                                        class="absolute -z-[1] h-[110%] w-[110%] animate-[ping_1.5s_ease-in-out_infinite] rounded-full bg-gray-600 opacity-30">
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Video Play Button -->
+                        </div>
+                        <!-- Funfacct Left Block -->
+                        
+
+                        <!-- Funfact Right Block -->
+                        <div
+                            class="self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28">
+                            <!-- Section Content Block -->
+                            <div class="mb-8 lg:mb-16 xl:mb-6">
+                                <h2 class="text-white">Save Time and Money</h2>
+                            </div>
+                            <!-- Section Content Block -->
+                            <div class="text-left text-lg leading-[1.4] text-white lg:text-[21px]">
+                                <p class="mb-7 last:mb-0">
+                                     No-code development empowers you to build faster, cheaper, and more efficiently.
+
+
+                                </p>
+                            </div>
+                            <!-- Horizontal Separator -->
+                            <div class="my-14 h-[1px] w-full bg-colorCodGray"></div>
+                            <!-- Counter Scroll -->
+                            <ul
+                                class="flex flex-col justify-center gap-x-11 gap-y-8 text-center sm:flex-row md:text-left xl:justify-normal xl:text-left xxl:gap-x-20">
+                                <!-- Counter Items -->
+                                <li>
+                                    <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
+                                        data-module="countup">
+                                        <span class="start-number" data-countup-number="10">10</span>x
+                                    </h3>
+                                    <span class="block text-lg font-normal text-white lg:text-[21px]">
+                                        Speed of development
+                                    </span>
+                                </li>
+                                <!-- Counter Items -->
+                                <!-- Counter Items -->
+                                <li>
+                                    <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px]"
+                                        data-module="countup">
+                                        <span class="start-number" data-countup-number="60">60</span>%
+                                    </h3>
+                                    <span class="block text-lg font-normal text-white lg:text-[21px]">
+                                        Cost savings
+                                    </span>
+                                </li>
+                                <!-- Counter Items -->
+                            </ul>
+                            <!-- Counter Scroll -->
+                        </div>
+                        <!-- Funfact Right Block -->
+                    </div>
+                </div>
+            </section>
+            <!--...::: Funfact Section End :::... -->
+
+            <!--...::: Content Section Start :::... -->
+            <section id="content-section-3">
+                <!-- Section Spacer -->
+                <div class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div
+                            class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28">
+                            <!-- Content Left Block -->
+                            <div class="jos order-2 overflow-hidden rounded-md" data-jos_animation="fade-left">
+                                <img src="assets/img/th-1/content-image-1.jpg" alt="content-image-2" width="526"
+                                    height="450" class="h-auto w-full" />
+                            </div>
+                            <!-- Content Left Block -->
+                            <!-- Content Right Block -->
+                            <div class="jos order-1" data-jos_animation="fade-right">
+                                <!-- Section Content Block -->
+                                <div class="mb-6">
+                                    <h2>Build  without breaking the bank</h2>
+                                </div>
+                                <!-- Section Content Block -->
+                                <div class="text-lg leading-[1.4] lg:text-[21px]">
+                                    <p class="mb-7 last:mb-0">
+                                        Turbocharge your operations and product development with No Code and Low Code tools. 
+
+
+                                    </p>
+                                </div>
+                                <ul
+                                    class="mt-8 grid gap-x-6 gap-y-8 sm:grid-cols-2 md:grid-cols-1 xl:mt-14 xl:grid-cols-2">
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/icon-orange-clock.svg" alt="trending-up-icon"
+                                                width="50" height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Platform Agnostic</h5>
+                                        <p class="text-lg">
+                                            We are platform agnostic and can work with most open source and propreitary platforms.
+                                        </p>
+                                    </li>
+                                    <li class="flex flex-col gap-y-4">
+                                        <div class="h-[50px] w-[50px]">
+                                            <img src="assets/img/th-1/icon-orange-cursor-click.svg" alt="cog-icon"
+                                                width="50" height="50" class="h-full w-full object-cover" />
+                                        </div>
+                                        <h5>Zero Lock In</h5>
+                                        <p class="text-lg">
+                                            Enjoy contract flexibility and seamless collaboration, even if you bring in external resources. We're committed to supporting your success.
+
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Content Right Block -->
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Content Section End :::... -->
+
+          
+        </main>
+<!--...::: Text Slide Section Start :::... -->
+            <div id="text-slide-section">
+                <div class="bg-colorBlue py-5">
+                    <div class="horizontal-slide-from-left-to-right grid grid-flow-col whitespace-nowrap">
+                        
+                        <div class="flex text-4xl font-bold uppercase leading-5 text-black">
+                            #Training Data #Devops #mvp development #no code #low code #Ml ops #workflow automation #model development #model training
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--...::: Text Slide Section End :::... -->
+        
+        <!--...::: Footer Section Start :::... -->
+            <!--...::: Footer-3 Section Start :::... -->
+        <footer id="section-footer-3">
+            <div class="bg-black text-white">
+                <!-- Section Spacer -->
+                <div class="py-20 xl:py-[130px]">
+                    <!-- Footer Top -->
+                    <div>
+                        <!-- Section Container -->
+                        <div class="global-container">
+                            <!-- Footer Content -->
+                            <div class="grid-col-1 grid items-center gap-10 md:grid-cols-2">
+                                <!-- Section Content Block -->
+                                <div>
+                                    <h1 class="font-raleway text-white">Let’s talk</h1>
+                                </div>
+                                <!-- Section Content Block -->
+                                <div class="jos flex flex-col gap-10 md:gap-[50px]">
+                                    <p class="text-lg font-semibold leading-[1.33] md:text-xl lg:text-2xl">
+                                        Contact us to build your project using No code tools. Achieve results with 10x speed.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Footer Content -->
+
+                            <!-- Footer Contact -->
+                            <div class="mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+                                <div
+                                    class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                    <a href="https://meetings.hubspot.com/sanjeev13" target="_blank">Book a call</a>
+                                </div>
+                                <div
+                                    class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                    <a href="contact.html">Contact Us</a>
+                                </div>
+                                
+                            </div>
+                            <!-- Footer Contact -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Top -->
+
+                    <!-- Footer Bottom -->
+                    <div class="mt-[100px]">
+                        <!-- Section Container -->
+                        <div class="global-container">
+                            <!-- Footer Widgets Block -->
+                            <div
+                                class="grid gap-x-10 gap-y-[60px] md:grid-cols-2 lg:flex lg:grid-cols-4 lg:justify-between lg:gap-x-20">
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]">
+                                    <a href="index.html" class="inline-block"><img src="assets/img/DCDV%20full%20White.png"
+                                            alt="logo" width="96" height="24" /></a>
+                                    <p>
+                                        Our mission is to harness the power of AI to solve complex
+                                        business challenges & decision-makers with data-driven
+                                        insights, and enhance user experiences across digital
+                                        platforms.
+                                    </p>
+                                    <p>
+                                        &copy; Copyright 2025-27, All Rights Reserved by DATACLAP
+                                    </p>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    <!-- Footer Title -->
+                                    <h4 class="text-[21px] font-semibold capitalize text-white">
+                                        Primary Pages
+                                    </h4>
+                                    <!-- Footer Title -->
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                       
+                                        <li>
+                                            <a href="about.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">DevOps</a>
+                                        </li>
+                                        <li>
+                                            <a href="services.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">No Code</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Training Data</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    <!-- Footer Title -->
+                                    <h4 class="text-[21px] font-semibold capitalize text-white">
+                                        Utility pages
+                                    </h4>
+                                    <!-- Footer Title -->
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                        <li>
+                                            <a href="signup.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="pricing.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">ML Ops</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Workflow Automation</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    <!-- Footer Title -->
+                                    <h4 class="text-[21px] font-semibold capitalize text-white">
+                                        Socials
+                                    </h4>
+                                    <!-- Footer Title -->
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[15px] capitalize">
+                                        <li>
+                                            <a href="http://www.linkedin.com" class="group flex items-center gap-x-3">
+                                                <div
+                                                    class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet">
+                                                    <img src="assets/img/th-1/linkedin-icon-white.svg"
+                                                        alt="linkedin-icon-white" width="14" height="14" />
+                                                </div>
+                                                <span class="inline-block flex-1">LinkedIn</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.twitter.com" class="group flex items-center gap-x-3">
+                                                
+                                                <span class="inline-block flex-1">Terms & Conditions</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.instagram.com" class="group flex items-center gap-x-3">
+                                                
+                                                <span class="inline-block flex-1">Privacy Policy</span>
+                                            </a>
+                                        </li>
+                                      
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+                            </div>
+                            <!-- Footer Widgets Block -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Bottom -->
+                </div>
+                <!-- Section Spacer -->
+            </div>
+        </footer>
+        <!--...::: Footer-3 Section End :::... -->
+
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
