@@ -2,788 +2,435 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DATACLAP DIGITAL Workflow Automation Solutions</title>
-    <meta name="description" content="DATACLAP is a leading workflow automation agency specializing in Activepieces, Automatisch, n8n and Zapier. We automate your sales, marketing, and business processes to save time, reduce costs, and improve accuracy. Contact us for tailored automation solutions." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATACLAP DIGITAL Workflow Automation Solutions</title>
+  <meta name="description"
+    content="DATACLAP is a leading workflow automation agency specializing in Activepieces, Automatisch, n8n and Zapier. We automate your sales, marketing, and business processes to save time, reduce costs, and improve accuracy. Contact us for tailored automation solutions." />
 
-    <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="icon" href="assets/img/favicon.png" />
 
-    <!-- site font -->
-    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+  <link href="assets/fonts/fonts.css" rel="stylesheet" />
 
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
-    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+  <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+  <link rel="stylesheet" href="assets/css/vendors/menu.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
 
-    <!-- Development css -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- Production css -->
-    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+  <style>
+    /* Basic styling for the tabs - customize as needed */
+    .nav-tabs {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .nav-tabs .nav-link {
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-right: 20px;
+      color: #333;
+      padding: 10px 0;
+    }
+
+    .nav-tabs .nav-link.active {
+      border-bottom-color: #381FD1;
+      color: #381FD1;
+    }
+
+    .tab-content {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="page-wrapper relative z-[1] bg-white">
-        <!--...::: Header Start :::... -->
-        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
-            <div class="global-container">
-                <div class="flex items-center justify-between gap-x-8">   
-                    <!-- Header Logo -->
-                    <a href="index.html" class="">
-                        <img src="assets/img/DCDV_FULL_B.png" alt="AIMass" width="96" height="24" />
-                    </a>
-                    <!-- Header Logo -->
-
-                    <!-- Header Navigation -->
-                    <div class="menu-block-wrapper">
-                        <div class="menu-overlay"></div>
-                        <nav class="menu-block" id="append-menu-header">
-                            <div class="mobile-menu-head">
-                                <div class="go-back">
-                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
-                                        alt="cheveron-right" width="16" height="16" />
-                                </div>
-                                <div class="current-menu-title"></div>
-                                <div class="mobile-menu-close">&times;</div>
-                            </div>
-                            <ul class="site-menu-main">
-                               
-                                
-                                <li class="nav-item nav-item-has-children">
-                                    <a href="#" class="nav-link-item drop-trigger">Services
-                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
-                                            alt="cheveron-right" width="16" height="16" /></a>
-                                    <ul class="sub-menu" id="submenu-2">
-                                        <li class="sub-menu--item">
-                                            <a href="services.html">Training Data</a>
-                                        </li>
-                                        <li class="sub-menu--item">
-                                            <a href="service-details.html">DevOps</a>
-                                        </li>
-                                        <li class="sub-menu--item">
-                                            <a href="service-details.html">MLOps</a>
-                                        </li>
-                                        <li class="sub-menu--item">
-                                            <a href="service-details.html">No Code</a>
-                                        </li>
-                                        <li class="sub-menu--item">
-                                            <a href="service-details.html">Workflow Automation</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                             <li class="nav-item">
-                                    <a href="about.html" class="nav-link-item">Techstack</a>
-                                </li>
-                                <li class="nav-item nav-item-has-children">
-                                    <a href="#" class="nav-link-item drop-trigger">Resources
-                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
-                                            alt="cheveron-right" width="16" height="16" /></a>
-                                    <ul class="sub-menu" id="submenu-3">
-                                        
-                                       
-                                        <li class="sub-menu--item nav-item-has-children">
-                                            <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
-                                              
-                                            </a>
-                                           
-                                        </li>
-                                   
-                                        <li class="sub-menu--item">
-                                            <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
-                                            </a>
-                                        </li>
-                                        
-
-                                    </ul>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a href="https://app.dover.com/jobs/dataclapdigital target=_blank" class="nav-link-item">Careers</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- Header Navigation -->
-
-                    <!-- Header User Event -->
-                    <div class="flex items-center gap-6">
-                       
-                        <a href="contact.html"
-                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Contact</a>
-                        <!-- Responsive Offcanvas Menu Button -->
-                        <div class="block lg:hidden">
-                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Header User Event -->
+  <div class="page-wrapper relative z-[1] bg-white">
+    <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+      <div class="global-container">
+        <div class="flex items-center justify-between gap-x-8">
+          <a href="index.html" class="">
+            <img src="assets/img/DCDV_FULL_B.png" alt="AIMass" width="96" height="24" />
+          </a>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg" alt="cheveron-right"
+                    width="16" height="16" />
                 </div>
-            </div>
-        </header>
-        <!--...::: Header End :::... -->
-        <!-- Stat main -->
-      <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <!-- Start banner_about -->
-        <section class="pt_banner_inner">
-          <div class="container">
-            <div class="row justify-content-center text-center">
-              <div class="col-md-8 col-lg-6">
-                <div class="banner_title_inner margin-b-10">
-                  <h1 data-aos="fade-up" data-aos-delay="0">
-                    Our policies
-                  </h1>
-                  
-                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
               </div>
+              <ul class="site-menu-main">
 
-            </div>
-          </div>
-        </section>
-        <!-- End banner_about -->
-        
-        <!-- Start section__showcase -->
-        <section class="section__showcase margin-b-6">
-          <div class="container">
-           
 
-            <div class="block__tab">
-              <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="pills-create-tab" data-toggle="pill" href="#pills-create" role="tab"
-                    aria-controls="pills-create" aria-selected="false">
-                    
-                    <h3>Privacy Policy</h3>
-                    <div class="prog"></div>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Services
+                    <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                      width="16" height="16" />
                   </a>
+                  <ul class="sub-menu" id="submenu-2">
+                    <li class="sub-menu--item">
+                      <a href="services.html">Training Data</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="service-details.html">DevOps</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="service-details.html">MLOps</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="service-details.html">No Code</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="service-details.html">Workflow Automation</a>
+                    </li>
+                  </ul>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="pills-view-tab" data-toggle="pill" href="#pills-view" role="tab"
-                    aria-controls="pills-view" aria-selected="false">
-                    
-                    <h3>GDPR</h3>
-                    <div class="prog"></div>
-                  </a>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link-item">Techstack</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="pills-integ-tab" data-toggle="pill" href="#pills-integ" role="tab"
-                    aria-controls="pills-integ" aria-selected="false">
-                    
-                    <h3>Data Security</h3>
-                    <div class="prog"></div>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Resources
+                    <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                      width="16" height="16" />
                   </a>
+                  <ul class="sub-menu" id="submenu-3">
+
+
+
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
+
+                      </a>
+
+                    </li>
+
+                    <li class="sub-menu--item">
+                      <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="https://app.dover.com/jobs/dataclapdigital target=_blank" class="nav-link-item">Careers</a>
                 </li>
               </ul>
-
-              <div class="tab-content" id="pills-tabContent">
-              
-                <div class="tab-pane fade" id="pills-create" role="tabpanel" aria-labelledby="pills-create-tab">
-                  <div class="ss_software">
-                    <p>Last updated: 26/04/2020</p>
-                    <p>This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
-                    <p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>
-                    <p><b>Information Collection And Use</b></p>
-                    <p>While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name ("Personal Information").</p>
-                    <p><b>Log Data</b></p>
-                    <p>Like many site operators, we collect information that your browser sends whenever you visit our Site ("Log Data").</p>
-                    <p>This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
-                    <p>In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this …</p>
-                    <p><b>Communications</b></p>
-                    <p>We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that ...</p>
-                    <p><b>Cookies</b></p>
-                    <p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.</p>
-                    <p>Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>
-                    <p><b>Security</b></p>
-                    <p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
-                    <p><b>Changes To This Privacy Policy</b></p>
-                    <p>This Privacy Policy is effective as of 26/04/2020 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
-                    <p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
-                    <p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
-                    <p><b>Contact Us</b></p>
-                    <p>If you have any questions about this Privacy Policy, please contact us.</p>
-                    <br>
-                    <br>
-                    
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="pills-view" role="tabpanel" aria-labelledby="pills-view-tab">
-                  <div class="ss_software">
-                    <p><b>Data Processing Addendum</b></p>
-                    <p>This Data Processing Addendum (this “DPA”) is incorporated into the Terms of Service located at https://dataclap.co/GDPR (the “Agreement”) between the undersigned customer (“Customer”) and DataClap (the “Company”). Capitalized but undefined terms used in this DPA will have the meanings assigned to those terms in the Agreement. In the course of providing the Service to Customer pursuant to the Agreement, the Company may Process Personal Data on behalf of Customer. The Company agrees to comply with the following provisions with respect to its Processing of Customer Personal Data (as such term is defined herein).</p>
-                    <p><b>1. DEFINITIONS</b></p>
-                    <p>“Affiliate” means any entity that directly or indirectly controls, is controlled by, or is under common control with the subject entity. “Control,” for purposes of this definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity.</p>
-                    <p>“Controller” means the entity which determines the purposes and means of the Processing of Personal Data.</p>
-                    <p>“Customer Data” means any data, information or material originated by Customer that Customer submits, collects or provides in the course of using the Services, including any Customer Personal Data.</p>
-                    <p>“Customer Personal Data” means Personal Data submitted by or for Customer, or at Customer’s direction, to the Company in connection with Customer’s use of the Services, and to which Data Protection Laws apply.</p>
-                    <p>“Data Protection Laws” means all laws and regulations, including laws and regulations of the European Union, the European Economic Area and their member states, and the United Kingdom, applicable to the Processing of Customer Personal Data by the Company under the Agreement.</p>
-                    <p>“Data Subject” means an identified or identifiable natural person about whom the Company Processes Personal Data in connection with the Services.</p>
-                    <p>“DPA Effective Date” means, as applicable, (a) 25 May 2018, if the parties agreed to this DPA prior to or on such date; or (b) the date on which the parties agreed to this DPA, if such date is after 25 May 2018. “GDPR” means the EU General Data Protection Regulation 2016/679.</p>
-                    <p>“Personal Data” means any information which relates to an identified or identifiable natural person, and to which Data Protection Laws apply.</p>
-                    <p>“Personal Data Breach” means a breach of the Company’s security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, Customer Personal Data in the Company’s possession, custody or control.</p>
-                    <p>“Personal Data Breaches” will not include unsuccessful attempts or activities that do not compromise the security of Customer Personal Data, including unsuccessful log-in attempts, pings, port scans, denial of service attacks, and other network attacks on firewalls or networked systems.</p>
-                    <p>“Process/Processing” shall have the same meaning as “processing” as defined in the GDPR. “Processor” means the entity which Processes Personal Data on behalf of the Controller.</p>
-                    <p>“Security and Privacy Measures” appropriate technical and organizational measures to ensure a level of security appropriate to that risk, including, as appropriate, the measures referred to in Article 32(1) of the GDPR, that the Company generally makes available to its customers as updated from time to time, or otherwise made reasonably available by the Company.</p>
-                    <p>“Standard Contractual Clauses” means the agreement executed by and between Customer and the Company and attached to this Addendum as Annex 2 pursuant to European Commission Decision of 5 February 2010 on standard contractual clauses for the transfer of personal data to processors established in third countries under Directive 95/46/EC of the European Parliament and of the Council.</p>
-                    <p>“Sub-processor” means any entity that the Company engages to Process Customer’s Personal Data on behalf of the Company.</p>
-                    <p><b>2. PROCESSING OF CUSTOMER PERSONAL DATA</b></p>
-                    <p>2.1Roles of the Parties; Purpose. The parties acknowledge and agree that with regard to the Processing of Customer Personal Data, Customer is the Controller, the Company is a Processor and that the Company may engage Sub-processors pursuant to the requirements set forth herein. The subject matter and details of the processing are described in Annex 1.</p>
-                    <p>2.2 Company’s Processing of Personal Data. The Company shall only Process Customer Personal Data on behalf of and in accordance with Customer’s instructions. Customer instructs the Company to Process Customer Personal Data for the following purposes: (i) Processing in accordance with the Agreement; (ii) Processing initiated by Users in their use of the Services; and (iii) Processing to comply with other reasonable instructions provided by Customer (e.g., via email) where such instructions are consistent with the terms of the Agreement and this DPA. This DPA and the Agreement are Customer’s complete and final instructions to the Company for the Processing of Customer Personal Data. Any additional or alternate instructions must be agreed upon separately in writing signed by authorized representatives of both parties.
-                    </p>
-                    <p>2.3 Customer’s Processing of Personal Data. Customer shall, in its use of the Services, Process Customer Personal Data in accordance with the requirements of Data Protection Laws. Customer’s instructions for the Processing of Personal Data by the Company shall comply with all Data Protection Laws. Customer shall have sole responsibility for the accuracy, quality, and legality of Customer Personal Data and the means by which Customer acquired Personal Data.</p>
-                    <p>2.4 Security of Processing. The Company will secure Customer Personal Data by implementing the Security and Privacy Measures. The Company will not materially decrease the overall security of the Services during the term of the Agreement.</p>
-                    <p>2.5 Company’s Security Assistance. The Company will (taking into account the nature of the processing of Customer Personal Data and the information available to the Company) provide Customer with reasonable assistance necessary for Customer to comply with its obligations in respect of Customer Personal Data under Data Protection Laws, including Articles 32 to 34 (inclusive) of the GDPR, by (a) implementing the security measures in accordance with Section 2.4 (Security of Processing); and (b) complying with the terms of Section 2.8 (Personal Data Breach Notification).</p>
-                    <p>2.6 Customer’s Security Responsibilities. Customer agrees that, without prejudice to the Company’s obligations under Section 4 (Company Personnel) and Section 2.8 (Personal Data Breach Notification), Customer is solely responsible for its use of the Services, including (a) making appropriate use of the Services to ensure a level of security appropriate to the risk in respect of the Customer Personal Data; (b) securing the account authentication credentials, systems and devices Customer uses to access the Services; and (c) backing up its Customer Personal Data. Customer agrees that, without prejudice to the Company’s obligations under Section 4 (Company Personnel) and Section 2.8 (Personal Data Breach Notification), the Company has no obligation to protect Customer Personal Data that Customer elects to store or transfer outside of the Company’s and its Sub-processors’ systems (for example, offline or on-premises storage).</p>
-                    <p>2.7 Personal Data Breach Notification. The Company will notify Customer without undue delay after becoming aware of a Personal Data Breach. To the extent such Personal Data Breach is caused by a violation of the requirements of this DPA by the Company, the Company shall make reasonable efforts to identify and remediate the cause of such Personal Data Breach. Customer is solely responsible for complying with incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Personal Data Breach. The Company’s notification of or response to a Personal Data Breach under this Section 2.8 will not be construed as an acknowledgement by the Company of any fault or liability with respect to the Personal Data Breach. To the extent that the Standard Contractual Clauses apply, Customer agrees that the provisions of this Section 2.8 satisfy the requirements of Clause 5(d)(2).</p>
-                    <p>2.8 Impact Assessments and Consultations. The Company will (taking into account the nature of the processing and the information available to the Company) reasonably assist Customer in complying with its obligations under Data Protection Laws in respect of data protection impact assessments and prior consultation, including, if applicable, Customer’s obligations pursuant to Articles 35 and 36 of the GDPR, by (a) making available for review copies of the the third-party certifications and audits set forth in the Security, Privacy and Architecture Documentation or other documentation describing relevant aspects of the Company’s information security program and the security measures applied in connection therewith; (b) providing the information contained in the Agreement, including this DPA, and (c) providing a description of the processing of Customer Personal Data undertaken by the Company.</p>
-                    <p>2.9 Data Subject Rights. During the term of the Agreement, if the Company receives any request from a Data Subject in relation to Customer Personal Data, the Company will advise the Data Subject to submit their request to Customer and Customer will be responsible for responding to any such request. Upon request from Customer, the Company shall provide commercially reasonable assistance to Customer in relation to the handling of a Data Subject’s request for exercising the Data Subject’s rights laid down in Chapter III of the GDPR, taking into account the nature of the Company’s Processing of Customer Personal Data and solely to the extent Customer is unable to fulfill such requests through the Services. Customer shall be responsible for any costs arising from the Company’s provision of such assistance.</p>
-                    <p>2.10 Deletion of Customer Personal Data. The Company shall delete all Customer Personal Data and copies thereof upon request of Customer or upon termination or expiration of the Agreement, unless otherwise required by the applicable Data Protection Laws, provided, however, that the Company shall delete backup data and operational or system log data in the ordinary course of business. In the event applicable law does not permit the Company to delete the Personal Data, the Company warrants that it shall ensure the confidentiality of the Personal Data and that it shall not use or disclose any Personal Data after termination of the Agreement, except as required by law.</p>
-                    <p>2.11 Data Storage and Processing Facilities. The Company may, subject to Section 2.13 (Company’s Data Transfer Obligations), store and process Customer Personal Data anywhere the Company or its Sub-processors maintains facilities.</p>
-                    <p>2.12 Data Transfers. With respect to Customer Personal Data transferred from the European Economic Area (“EEA”) to outside the EEA in conjunction with Customer’s use of the Services, either directly or via onward transfer, the Company will provide at least the same level of protection for such Customer Personal Data as is required by the Standard Contractual Clauses.</p>
-                    <p>2.13 Audits. Company shall allow Customer and its respective auditors or authorized agents to conduct audits or inspections during the term of the Agreement, which shall include providing reasonable access to the premises, resources and personnel used by Company in connection with the provision of the Services and provide all reasonable assistance in order to assist Customer in exercising its audit rights under this section. The purposes of an audit pursuant to this section include to verify that Company is processing personal data in accordance with its obligations under the DPA and applicable Data Protection Laws. Notwithstanding the foregoing, such audit shall consist solely of: (i) the provision by Comapny of written information (including, without limitation, questionnaires and information about security policies) that may include information relating to subcontractors; and (ii) interviews with Company’s IT personnel. Such audit may be carried out by Customer or an inspection body composed of independent members and in possession of the required professional qualifications bound by a duty of confidentiality. For the avoidance of doubt no access to any part of Company’s IT system, data hosting sites or centers, or infrastructure will be permitted.</p>
-                    <p>2.14 Processing Records. Customer acknowledges that the Company is required under the GDPR to: (a) collect and maintain records of certain information, including the name and contact details of each processor and/or controller on behalf of which the Company is acting and, where applicable, of such processor’s or controller's local representative and data protection officer; and (b) make such information available to the supervisory authorities. Accordingly, if the GDPR applies to the processing of Customer Personal Data, Customer will, where requested, provide such information to the Company, and will ensure that all information provided is kept accurate and up-to-date.</p>
-                    <p><b>3. COMPANY PERSONNEL</b></p>
-                    <p>3.1 Confidentiality. The Company shall ensure that its personnel engaged in the Processing of Customer Personal Data are informed of the confidential nature of the Customer Personal Data, have received appropriate training on their responsibilities and have executed written confidentiality agreements or are under an appropriate statutory obligation of confidentiality. The Company shall ensure that such confidentiality obligations survive the termination of the personnel engagement.</p>
-                    <p>3.2 Limitation of Access. The Company shall ensure that its personnel’s access to Customer Personal Data is limited to those personnel who require such access to perform under the Agreement.</p>
-                    <p><b>4. SUB-PROCESSORS</b></p>
-                    <p>4.1 General Authorization. Customer authorizes the Company to subcontract processing of Customer Personal Data under this DPA to Sub-processors, provided that the Company: (a) provides Customer with such details about the Sub-processor(s) it uses as may be reasonably requested by Customer from time to time; (b) flows down its obligations under this DPA to such Sub-processor, such that the data processing requirements of such Sub-processor with respect to Customer Personal Data are no less onerous than the data processing requirements of the Company as set out in this DPA; and (c) will be fully liable to Customer for the performance of the Sub-processor’s obligations under this DPA if such Sub-processor fails to fulfill its data protection obligations. Information about Subprocessors, including their functions and locations, is available below:
-                    Paypal &amp; Stripe: payment processing and billing
-                    Google Big Query: aggregates and records notification, engagement, and click count for all users
-                    Heroku &amp; Amazon Web Services: used to host our web applications which include our databases
-                    </p>
-                    <p>4.2 New Sub-Processors. The Company will inform Customer of any intended changes concerning the addition or replacement of Sub-processors. If Customer has a reasonable basis to object to the Company’s use of a new Sub-processor, Customer shall notify the Company promptly in writing within ten (10) days after the Company informs Customer of such change. If such objection is not unreasonable, the Company will use reasonable efforts to make available to Customer a change in the affected Services or recommend a commercially reasonable change to Customer’s configuration or use of the affected Services to avoid processing of Customer Personal Data by such new Sub-processor. If the Company is unable to make available such change within a reasonable period of time, which shall not exceed sixty (60) days, Customer may terminate the applicable portion of the Services that cannot be provided by the Company without the use of the objected-to new Sub-processor, by providing written notice to the Company. Customer shall receive a refund of any prepaid fees for the period following the effective date of termination in respect of such terminated Services.</p>
-                    <p>4.3 Sub-Processor Agreements. The parties agree that if copies of the Sub-processor agreements must be sent by the Company to the Customer pursuant to this DPA or applicable Data Protection Laws, such copies may have all commercial information and clauses unrelated to this DPA removed by the Company beforehand; and, that such copies will be provided by the Company only upon reasonable request by Customer.</p>
-                    <p>4.4 Customer Consent to Sub-processing; Access to Sub-processing Agreements. To the extent the Standard Contractual Clauses apply:
-                    </p>
-                    <p>4.4.1 Customer consents to the Company’s transfer of Personal Data to Sub-processors as described in Sections 4.1 and 4.2 above, and agrees that Customer’s consent satisfies the requirements of Clauses 5(h) and 11.1; and</p>
-                    <p>4.4.2 Upon Customer’s written request, the Company shall allow Customer to examine the data protection provisions of agreements between the Company and its subcontractors that access Customer Personal Data; provided that such agreements shall remain the Company’s Confidential Information. Customer agrees that this Section 4.4.2 satisfies the requirements of Clause 5(j) of the Standard Contractual Clauses.</p>
-                    <p><b>5. GENERAL PROVISIONS</b></p>
-                    <p>5.1 Conflicting Terms. This DPA applies only between Customer and the Company and does not confer any rights to any third party. To the extent of any conflict or inconsistency between this DPA and the remaining terms of the Agreement, this DPA will govern. This DPA does not replace any additional rights related to the Company’s processing of Customer’s data as set forth in the Agreement.</p>
-                    <p>5.2 Term and Termination. This DPA will become effective (a) 25 May 2018, if the parties agreed to this DPA prior to or on such date; or (b) the date on which the parties agreed to this DPA, if such date is after 25 May 2018. This DPA will terminate simultaneously and automatically upon the termination of the Agreement. The Company may terminate this DPA at any time upon notice to Customer if the Company offers alternative means to Customer that comply with all applicable Data Protection Laws. Customer may terminate this DPA at Customer’s discretion upon the Company’s receipt of Customer’s written notice of termination.</p>
-                    <p>5.3 Liability. The total combined liability of either party and its Affiliates towards the other party and its Affiliates, whether in contract, tort or any other theory of liability, under or in connection with the Agreement, this DPA, combined will be limited to limitations on liability or other liability caps agreed to by the parties in the Agreement.</p>
-                    <p>5.4 Governing Law. To the extent required by the applicable Data Protection Laws, this DPA shall be governed by the laws of the applicable jurisdiction. In all other cases, this DPA shall be governed by the laws of the jurisdiction stated in the Agreement.</p>
-                    <p><b>Annex 1</b></p>
-                    <p>Subject Matter and Details of the Data Processing</p>
-                    <p><b>Subject Matter</b> The Company’s provision of the Services to Customer.</p>
-                    <p><b>Duration of the Processing</b> Until deletion of all Customer Personal Data by the Company in accordance with the DPA.</p>
-                    <p><b>Nature and Purpose of the Processing</b> The Company will process Customer Personal Data for the purposes of providing the Services to Customer in accordance with the DPA and the Agreement.</p>
-                    <p><b>Categories of Data</b> Data relating to individuals provided to, or collected by, the Company in connection with the Services, by (or at the direction of) Customer.</p>
-                    <p><b>Data Subjects</b> Data subjects include the individuals about whom the Company Processes data in connection with the Services.</p>
-                    <p><b>Annex 2</b></p>
-                    <p><b>STANDARD CONTRACTUAL CLAUSES (PROCESSORS)</b></p>
-                    <p>This Annex 2 is part 2 of 2 and must be accompanied by and signed with part 1 of 2 titled “Data Processing Addendum” to be valid.</p>
-                    <p>For the purposes of Article 26(2) of Directive 95/46/EC for the transfer of personal data to processors established in third countries which do not ensure an adequate level of data protection</p>
-                    <p>Name of the data exporting organization: [INSERT CUSTOMER NAME]</p>
-                    <p>(the data exporter)</p>
-                    <p>And</p>
-                    <p>Name of the data importing organization: DataClap.</p>
-                    <p>(the data importer)</p>
-                    <p>each a ‘party’; together ‘the parties’,
-                    HAVE AGREED on the following Contractual Clauses (the Clauses) in order to adduce adequate safeguards with respect to the protection of privacy and fundamental rights and freedoms of individuals for the transfer by the data exporter to the data importer of the personal data specified in Appendix 1.</p>
-                    <p><b>Clause 1</b></p>
-                    <p>Definitions</p>
-                    <p>For the purposes of the Clauses:</p>
-                    <p>(a) ‘personal data’, ‘special categories of data’, ‘process/processing’, ‘controller’, ‘processor’, ‘data subject’ and ‘supervisory authority’ shall have the same meaning as in Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data;</p>
-                    <p>(b) ‘the data exporter’ means the controller who transfers the personal data;</p>
-                    <p>(c) ‘the data importer’ means the processor who agrees to receive from the data exporter personal data intended for processing on his behalf after the transfer in accordance with his instructions and the terms of the Clauses and who is not subject to a third country’s system ensuring adequate protection within the meaning of Article 25(1) of Directive 95/46/EC;</p>
-                    <p>(d) ‘the sub-processor’ means any processor engaged by the data importer or by any other sub-processor of the data importer who agrees to receive from the data importer or from any other sub-processor of the data importer personal data exclusively intended for processing activities to be carried out on behalf of the data exporter after the transfer in accordance with his instructions, the terms of the Clauses and the terms of the written subcontract;</p>
-                    <p>(e) ‘the applicable data protection law’ means the legislation protecting the fundamental rights and freedoms of individuals and, in particular, their right to privacy with respect to the processing of personal data applicable to a data controller in the Member State in which the data exporter is established;</p>
-                    <p>(f) ‘technical and organisational security measures’ means those measures aimed at protecting personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorised disclosure or access, in particular where the processing involves the transmission of data over a network, and against all other unlawful forms of processing.</p>
-                    <p>Clause 2</p>
-                    <p>Details of the transfer</p>
-                    <p>The details of the transfer and in particular the special categories of personal data where applicable are specified in Appendix 1 which forms an integral part of the Clauses.</p>
-                    <p>Clause 3</p>
-                    <p>Third-party beneficiary clause</p>
-                    <p>1. The data subject can enforce against the data exporter this Clause, Clause 4(b) to (i), Clause 5(a) to (e), and (g) to (j), Clause 6(1) and (2), Clause 7, Clause 8(2), and Clauses 9 to 12 as third-party beneficiary.</p>
-                    <p>2. The data subject can enforce against the data importer this Clause, Clause 5(a) to (e) and (g), Clause 6, Clause 7, Clause 8(2), and Clauses 9 to 12, in cases where the data exporter has factually disappeared or has ceased to exist in law unless any successor entity has assumed the entire legal obligations of the data exporter by contract or by operation of law, as a result of which it takes on the rights and obligations of the data exporter, in which case the data subject can enforce them against such entity.</p>
-                    <p>3. The data subject can enforce against the sub-processor this Clause, Clause 5(a) to (e) and (g), Clause 6, Clause 7, Clause 8(2), and Clauses 9 to 12, in cases where both the data exporter and the data importer have factually disappeared or ceased to exist in law or have become insolvent, unless any successor entity has assumed the entire legal obligations of the data exporter by contract or by operation of law as a result of which it takes on the rights and obligations of the data exporter, in which case the data subject can enforce them against such entity. Such third-party liability of the subprocessor shall be limited to its own processing operations under the Clauses.</p>
-                    <p>4. The parties do not object to a data subject being represented by an association or other body if the data subject so expressly wishes and if permitted by national law.</p>
-                    <p>Clause 4</p>
-                    <p>Obligations of the data exporter</p>
-                    <p>The data exporter agrees and warrants:</p>
-                    <p>(a) that the processing, including the transfer itself, of the personal data has been and will continue to be carried out in accordance with the relevant provisions of the applicable data protection law (and, where applicable, has been notified to the relevant authorities of the Member State where the data exporter is established) and does not violate the relevant provisions of that State;</p>
-                    <p>(b) that it has instructed and throughout the duration of the personal data-processing services will instruct the data importer to process the personal data transferred only on the data exporter’s behalf and in accordance with the applicable data protection law and the Clauses;</p>
-                    <p>(c) that the data importer will provide sufficient guarantees in respect of the technical and organisational security measures specified in Appendix 2 to this contract;</p>
-                    <p>(d) that after assessment of the requirements of the applicable data protection law, the security measures are appropriate to protect personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access, in particular where the processing involves the transmission of data over a network, and against all other unlawful forms of processing, and that these measures ensure a level of security appropriate to the risks presented by the processing and the nature of the data to be protected having regard to the state of the art and the cost of their implementation;</p>
-                    <p>(e) that it will ensure compliance with the security measures;</p>
-                    <p>(f) that, if the transfer involves special categories of data, the data subject has been informed or will be informed before, or as soon as possible after, the transfer that its data could be transmitted to a third country not providing adequate protection within the meaning of Directive 95/46/EC;</p>
-                    <p>(g) to forward any notification received from the data importer or any sub-processor pursuant to Clause 5(b) and Clause 8(3) to the data protection supervisory authority if the data exporter decides to continue the transfer or to lift the suspension;</p>
-                    <p>(h) to make available to the data subjects upon request a copy of the Clauses, with the exception of Appendix 2, and a summary description of the security measures, as well as a copy of any contract for sub-processing services which has to be made in accordance with the Clauses, unless the Clauses or the contract contain commercial information, in which case it may remove such commercial information;</p>
-                    <p>(i) that, in the event of sub-processing, the processing activity is carried out in accordance with Clause 11 by a subprocessor providing at least the same level of protection for the personal data and the rights of data subject as the data importer under the Clauses; and</p>
-                    <p>(j) that it will ensure compliance with Clause 4(a) to (i).</p>
-                    <p>Clause 5</p>
-                    <p>Obligations of the data importer</p>
-                    <p>The data importer agrees and warrants:</p>
-                    <p>(a) to process the personal data only on behalf of the data exporter and in compliance with its instructions and the Clauses; if it cannot provide such compliance for whatever reasons, it agrees to inform promptly the data exporter of its inability to comply, in which case the data exporter is entitled to suspend the transfer of data and/or terminate the contract;</p>
-                    <p>(b) that it has no reason to believe that the legislation applicable to it prevents it from fulfilling the instructions received from the data exporter and its obligations under the contract and that in the event of a change in this legislation which is likely to have a substantial adverse effect on the warranties and obligations provided by the Clauses, it will promptly notify the change to the data exporter as soon as it is aware, in which case the data exporter is entitled to suspend the transfer of data and/or terminate the contract;</p>
-                    <p>(c) that it has implemented the technical and organisational security measures specified in Appendix 2 before processing the personal data transferred;</p>
-                    <p>(d) that it will promptly notify the data exporter about:</p>
-                    <p>(i) any legally binding request for disclosure of the personal data by a law enforcement authority unless otherwise prohibited, such as a prohibition under criminal law to preserve the confidentiality of a law enforcement investigation;
-                    </p>
-                    <p>(ii) any accidental or unauthorised access; and</p>
-                    <p>(iii) any request received directly from the data subjects without responding to that request, unless it has been otherwise authorised to do so;</p>
-                    <p>(e) to deal promptly and properly with all inquiries from the data exporter relating to its processing of the personal data subject to the transfer and to abide by the advice of the supervisory authority with regard to the processing of the data transferred;</p>
-                    <p>(f) at the request of the data exporter to submit its data-processing facilities for audit of the processing activities covered by the Clauses which shall be carried out by the data exporter or an inspection body composed of independent members and in possession of the required professional qualifications bound by a duty of confidentiality, selected by the data exporter, where applicable, in agreement with the supervisory authority;</p>
-                    <p>(g) to make available to the data subject upon request a copy of the Clauses, or any existing contract for sub-processing, unless the Clauses or contract contain commercial information, in which case it may remove such commercial information, with the exception of Appendix 2 which shall be replaced by a summary description of the security measures in those cases where the data subject is unable to obtain a copy from the data exporter;</p>
-                    <p>(h) that, in the event of sub-processing, it has previously informed the data exporter and obtained its prior written consent;</p>
-                    <p>(i) that the processing services by the sub-processor will be carried out in accordance with Clause 11;</p>
-                    <p>(j) to send promptly a copy of any sub-processor agreement it concludes under the Clauses to the data exporter.
-                    Clause 6</p>
-                    <p>Liability</p>
-                    <p>1. The parties agree that any data subject, who has suffered damage as a result of any breach of the obligations referred to in Clause 3 or in Clause 11 by any party or sub-processor is entitled to receive compensation from the data exporter for the damage suffered.</p>
-                    <p>2. If a data subject is not able to bring a claim for compensation in accordance with paragraph 1 against the data exporter, arising out of a breach by the data importer or his sub-processor of any of their obligations referred to in Clause 3 or in Clause 11, because the data exporter has factually disappeared or ceased to exist in law or has become insolvent, the data importer agrees that the data subject may issue a claim against the data importer as if it were the data exporter, unless any successor entity has assumed the entire legal obligations of the data exporter by contract of by operation of law, in which case the data subject can enforce its rights against such entity.
-                    The data importer may not rely on a breach by a sub-processor of its obligations in order to avoid its own liabilities.</p>
-                    <p>3. If a data subject is not able to bring a claim against the data exporter or the data importer referred to in paragraphs 1 and 2, arising out of a breach by the sub-processor of any of their obligations referred to in Clause 3 or in Clause 11 because both the data exporter and the data importer have factually disappeared or ceased to exist in law or have become insolvent, the sub-processor agrees that the data subject may issue a claim against the data sub-processor with regard to its own processing operations under the Clauses as if it were the data exporter or the data importer, unless any successor entity has assumed the entire legal obligations of the data exporter or data importer by contract or by operation of law, in which case the data subject can enforce its rights against such entity. The liability of the sub-processor shall be limited to its own processing operations under the Clauses.</p>
-                    <p>Clause 7</p>
-                    <p>Mediation and jurisdiction</p>
-                    <p>1. The data importer agrees that if the data subject invokes against it third-party beneficiary rights and/or claims compensation for damages under the Clauses, the data importer will accept the decision of the data subject:
-                    (a) to refer the dispute to mediation, by an independent person or, where applicable, by the supervisory authority;
-                    (b) to refer the dispute to the courts in the Member State in which the data exporter is established.</p>
-                    <p>2. The parties agree that the choice made by the data subject will not prejudice its substantive or procedural rights to seek remedies in accordance with other provisions of national or international law.</p>
-                    <p>Clause 8</p>
-                    <p>Cooperation with supervisory authorities</p>
-                    <p>1. The data exporter agrees to deposit a copy of this contract with the supervisory authority if it so requests or if such deposit is required under the applicable data protection law.</p>
-                    <p>2. The parties agree that the supervisory authority has the right to conduct an audit of the data importer, and of any sub-processor, which has the same scope and is subject to the same conditions as would apply to an audit of the data exporter under the applicable data protection law.</p>
-                    <p>3. The data importer shall promptly inform the data exporter about the existence of legislation applicable to it or any sub-processor preventing the conduct of an audit of the data importer, or any sub-processor, pursuant to paragraph 2. In such a case the data exporter shall be entitled to take the measures foreseen in Clause 5(b).</p>
-                    <p>Clause 9</p>
-                    <p>Governing law</p>
-                    <p>The Clauses shall be governed by the law of the Member State in which the data exporter is established.</p>
-                    <p>Clause 10</p>
-                    <p>Variation of the contract</p>
-                    <p>The parties undertake not to vary or modify the Clauses. This does not preclude the parties from adding clauses on business related issues where required as long as they do not contradict the Clause.</p>
-                    <p>Clause 11</p>
-                    <p>Sub-processing</p>
-                    <p>1. The data importer shall not subcontract any of its processing operations performed on behalf of the data exporter under the Clauses without the prior written consent of the data exporter. Where the data importer subcontracts its obligations under the Clauses, with the consent of the data exporter, it shall do so only by way of a written agreement with the sub-processor which imposes the same obligations on the sub-processor as are imposed on the data importer under the Clauses. Where the sub-processor fails to fulfil its data protection obligations under such written agreement the data importer shall remain fully liable to the data exporter for the performance of the sub-processor’s obligations under such agreement.</p>
-                    <p>2. The prior written contract between the data importer and the sub-processor shall also provide for a third-party beneficiary clause as laid down in Clause 3 for cases where the data subject is not able to bring the claim for compensation referred to in paragraph 1 of Clause 6 against the data exporter or the data importer because they have factually disappeared or have ceased to exist in law or have become insolvent and no successor entity has assumed the entire legal obligations of the data exporter or data importer by contract or by operation of law. Such third-party liability of the sub-processor shall be limited to its own processing operations under the Clauses.</p>
-                    <p>3. The provisions relating to data protection aspects for sub-processing of the contract referred to in paragraph 1 shall be governed by the law of the Member State in which the data exporter is established, namely</p>
-                    <p>4. The data exporter shall keep a list of sub-processing agreements concluded under the Clauses and notified by the data importer pursuant to Clause 5(j), which shall be updated at least once a year. The list shall be available to the data exporter’s data protection supervisory authority.</p>
-                    <p>Clause 12</p>
-                    <p>Obligation after the termination of personal data-processing services</p>
-                    <p>1. The parties agree that on the termination of the provision of data-processing services, the data importer and the sub-processor shall, at the choice of the data exporter, return all the personal data transferred and the copies thereof to the data exporter or shall destroy all the personal data and certify to the data exporter that it has done so, unless legislation imposed upon the data importer prevents it from returning or destroying all or part of the personal data transferred. In that case, the data importer warrants that it will guarantee the confidentiality of the personal data transferred and will not actively process the personal data transferred anymore.</p>
-                    <p>2. The data importer and the sub-processor warrant that upon request of the data exporter and/or of the supervisory authority, it will submit its data-processing facilities for an audit of the measures referred to in paragraph 1.</p>
-                    <p>Appendix 1</p>
-                    <p>to the Standard Contractual Clauses</p>
-                    <p>This Appendix forms part of the Clauses and must be completed and signed by the parties.
-                    The Member States may complete or specify, according to their national procedures, any additional necessary information to be contained in this Appendix.</p>
-                    <p>Data exporter</p>
-                    <p>The data exporter is the Customer under the Agreement and obtains the Services in accordance with the terms of the Agreement. The data exporter submits Customer Data for use in the provision of the Services</p>
-                    <p>Data importer</p>
-                    <p>The data importer is a legal entity that provides services through which data exporter can conduct marketing and related advertising activities on the Internet.</p>
-                    <p>Data subjects</p>
-                    <p>The personal data transferred concern the following categories of data subjects:</p>
-                    <p>☒ Employees of the data exporter and any affiliate entities.</p>
-                    <p>☒ Customers of the data exporter and any affiliate entities.</p>
-                    <p>☒ Consumers</p>
-                    <p>Categories of data</p>
-                    <p>The personal data transferred concern the following categories of data:</p>
-                    <p>☒ The personal data of data exporter’s and any affiliate entities’ employees generated in the normal course of business, including but not limited to: name and email address.</p>
-                    <p>☒ The personal data of data exporter’s and its affiliate entities’ customers generated in the normal course of business, including but not limited to: name and email address.</p>
-                    <p>☒ Browsing data</p>
-                    <p>Special categories of data (if appropriate)</p>
-                    <p>None, other than to the extent incorporated into the categories of data set forth above, which will be determined solely by the employees, customers and consumers set forth above.</p>
-                    <p>Processing operations</p>
-                    <p>The personal data transferred will be subject to the following basic processing activities:</p>
-                    <p>Data Importer provides services through which Data Exporter provides services through which data exporter can conduct marketing and related advertising activities on the Internet.</p>
-                    <br>
-                    <br>
-                    
-
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="pills-integ" role="tabpanel" aria-labelledby="pills-integ-tab">
-                  <div class="ss_software">
-                   
-                    <p><b>Confidentiality and Non Disclosure Agreements (NDAs)
-</b></p>
-                    <p>Our policies ensure confidenality of Client Data is maintained at all times:
-</p>
-                      <li>To ensure the security and confidenality of informaon, a Confidenality Agreement is
- executed with each client and all private concerns are respected.
-</li>
-                      <li>We also sign appropriate NDAs with each individual Employee working on our Client's
- Project to ensure the client interests is protected adequately.</li>
-                      <li>Employees cannot disclose any proprietary informaon directly or indirectly to
- anyone outside the project team or company, or use, copy, publish, summarize or remove such
- informaon from the company premises.</li>
-                      <br>
-                    <p><b>Employee background checks
-</b></p>
-                      <li>Thorough background checks (including criminal checks) are performed for all employees
- before on-boarding.</li>
-                      <li>Data access is restricted only to employees whose background checks have been successfully
- completed.</li>
-                      <li>On-going background checks and diligence are also performed for exisng employees.</li>
-                      <br>
-                      
-                      <p><b>Access control
-</b></p>
-                      <li>Entrance in producon area is restricted via Biometric Access.</li>
-                      <li>Producon area is under 24x7 CCTV surveillance.</li>
-                      <li>Limited, applicable applicaon access provided as per operaons.</li>
-                      <li>CDs, DVDs, pen drive, disk drive, or any other storage devices are not allowed in the producon
- areas without prior permission from authorized management team members.
-</li>
-                      <li>Well defined passwords & access control for authorized internal persons.</li>
-                    
-                    <br>
-                    <p><b>Data Security</b></p>
-                    <li>The Data received from the client during the me of processing is via approved and secure
- channels only.</li>
-                      <li>Data sharing protocols are complied with, restricng data visibility to authorized personnel
- only, which is further tracked to ensure safe disposal of data aer necessitated usage. All such
- data transfers are logged and recorded for auding and compliance purposes.</li>
-                      <li>No local storage provided, all data are stored at central storage.</li>
-                      <li>Regular audits of the central storage server.</li>
-                      <br>
-                      
-                       <p><b>Email Security</b></p>
-                    <li>Agents are given organizaon email facility only when required.</li>
-                      <li>No mails can be sent outside the organizaon from the given mail facility (except pre- approved domains).</li>
-                      
-                      <br>
-                      
-                      <p><b>Internet access</b></p>
-                    <li>Restricted access to internet sites is allowed only if it is a process requirement.</li>
-                      <li>Connuous monitoring of web traffic and disciplinary acons taken for violaons.</li>
-                      <li>High level of an-spam, an-virus and an-spywares ensure that the data is not hacked or leaked outside the organizaon.</li>
-                      <li>Limited access to the network through login IDs and password protecon.
-</li>
-                      <li>Professional firewall system restricts the users to surf or access unauthorized sites. </li>
-                      <br>
-                      <p><b>Awareness programs</b></p>
-                    <li>All employees are trained on the security measures which are enforced on every individual
- across the organizaonal hierarchy. Regular update trainings and security quizzes are
- conducted to assess employee understanding.
-</li>
-                      <li>Regular awareness program are conducted on data protecon and its legality.</li>
-                      <li>Awareness of informaon security through class room sessions, intranet sessions, posters, mailers etc.</li>
-                      
-                    <br>
-                      <p><b>Tolerance policy</b></p>
-                    <p>DataClap mandates security adherence at all mes by all employees and has a zero percent tolerance
-towards any unethical pracce. All such issues are dealt with in the strictest manner to ensure
-minimum impact to the service delivery.
-
-</p>
-                      
-                  
-                 
-                </div>
-              </div>
-
-            </div>
-              </div>
+            </nav>
           </div>
-        </section>
-        <!-- End. section__showcase -->
-              
+          <div class="flex items-center gap-6">
 
-        <!-- Start feature__demo4 -->
-        <section class="services_section save__nature feature__demo4 margin-t-6" id="Features">
-          <div class="container">
-            <div class="row justify-content-center text-center">
-              <div class="col-md-8 col-lg-5">
-                <div class="title_sections">
-                  <div class="before_title">
-                    <span>Why</span>
-                    <span class="c-blue">DataClap?</span>
-                  </div>
-                  <h2>Our Advantages</h2>
-                  <p>Understand why our clients choose to work with us</p>
-                </div>
-              </div>
+            <a href="contact.html"
+              class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Contact</a>
+            <div class="block lg:hidden">
+              <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
             </div>
-
-            <div class="row">
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="0">
-                  <div class="icon--top">
-                    <img src="./assets/img/icons/completely_managed.svg" alt="completely managed data and image annotation services" />
-
-                  </div>
-                  <div class="txt">
-                    <h3>Completely Managed</h3>
-                    <p>Our services are completely managed with dedicated account managers to ensure smooth operations.</p>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="100">
-                  <div class="icon--top">
-                   <img src="./assets/img/icons/scalable.svg" alt="scalable workforce for ad hoc needs" /> 
-                  </div>
-                  <div class="txt">
-                    <h3>Scalable Workforce</h3>
-                    <p>Start with a single person and grow with us. We scale up our team based on your demands. </p>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="200">
-                  <div class="icon--top">
-                    <img src="./assets/img/icons/Data_Security.svg" alt="ISO 27001 and GDPR compliant data and image annotation services" />
-
-                  </div>
-                  <div class="txt">
-                    <h3>Data Security</h3>
-                    <p>Data security is of paramount importance. We are GDPR compliant and are ISO 27001 certified.</p>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="0">
-                  <div class="icon--top">
-                    <img src="./assets/img/icons/quality.svg" alt="high quality annotation and human in the loop services" />
-
-                  </div>
-                  <div class="txt">
-                    <h3>Optimized for Quality</h3>
-                    <p>We have a two layer QC process that ensures the quality of the output. This is enabled by a short feedback loop process. </p>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="100">
-                  <div class="icon--top">
-                <img src="./assets/img/icons/end_to_end.svg" alt="end to end training data services" />
-
-                  </div>
-                  <div class="txt">
-                    <h3>End to End Solutions</h3>
-                    <p>From data collection and cleaning to data annotation, we offer ened to end solutions for your training data needs. </p>
-                  </div>
-
-                </div> 
-              </div>
-
-              <div class="col-md-6 col-lg-4 item__nature">
-                <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="200">
-                  <div class="icon--top">
-                     <img src="./assets/img/icons/cost.svg" alt="cost efficient image and data annotation services" />
-                  </div>
-                  <div class="txt">
-                    <h3>Cost Efficient</h3>
-                    <p>Our pricing is transparent and economical. We are more economical thatn contract workers and large annotation platforms.</p>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-
           </div>
-        </section>
-        <!-- End. feature__demo4 -->
-
-       
-                <!-- Start Simple Contact -->
-               <section class="creative_box_contact padding-t-12">
-          <div class="container">
-            <div class="content">
-              <div class="row justify-content-center text-center">
-                <div class="col-lg-5">
-                  <div class="title_sections_inner margin-b-4">
-                    <h2 class="c-white" data-aos="fade-up" data-aos-delay="0">Contact us for a free pilot.</h2>
-                    <p class="c-light" data-aos="fade-up" data-aos-delay="100">Reach out to us if you want to evaluate our services. Get a completely free of cost pilot project.</p>
-                  </div>
-                  <a href="contact.html" class="btn btn_xl_primary bg-blue c-white rounded-8" data-aos="fade-up"
-                    data-aos-delay="200">Contact us</a>
-                </div>
-              </div>
-            </div>
-
           </div>
-        </section>
-                <!-- End Simple Contact -->
-       
-    
-
-        <!--...::: Footer Section Start :::... -->
-            <!--...::: Footer-3 Section Start :::... -->
-            <footer id="section-footer-3">
-              <div class="bg-black text-white">
-                  <!-- Section Spacer -->
-                  <div class="py-20 xl:py-[130px]">
-                      <!-- Footer Top -->
-                      <div>
-                          <!-- Section Container -->
-                          <div class="global-container">
-                              <!-- Footer Content -->
-                              <div class="grid-col-1 grid items-center gap-10 md:grid-cols-2">
-                                  <!-- Section Content Block -->
-                                  <div>
-                                      <h1 class="font-raleway text-white">Let’s talk</h1>
-                                  </div>
-                                  <!-- Section Content Block -->
-                                  <div class="jos flex flex-col gap-10 md:gap-[50px]">
-                                      <p class="text-lg font-semibold leading-[1.33] md:text-xl lg:text-2xl">
-                                          Contact us to automate your business processes. Achieve results with 10x speed.
-                                      </p>
-                                  </div>
-                              </div>
-                              <!-- Footer Content -->
-  
-                              <!-- Footer Contact -->
-                              <div class="mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
-                                  <div
-                                      class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
-                                      <a href="https://meetings.hubspot.com/sanjeev13" target="_blank">Book a call</a>
-                                  </div>
-                                  <div
-                                      class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
-                                      <a href="contact.html">Contact Us</a>
-                                  </div>
-                                  
-                              </div>
-                              <!-- Footer Contact -->
-                          </div>
-                          <!-- Section Container -->
-                      </div>
-                      <!-- Footer Top -->
-  
-                      <!-- Footer Bottom -->
-                      <div class="mt-[100px]">
-                          <!-- Section Container -->
-                          <div class="global-container">
-                              <!-- Footer Widgets Block -->
-                              <div
-                                  class="grid gap-x-10 gap-y-[60px] md:grid-cols-2 lg:flex lg:grid-cols-4 lg:justify-between lg:gap-x-20">
-                                  <!-- Footer Widget Item -->
-                                  <div class="flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]">
-                                      <a href="index.html" class="inline-block"><img src="assets/img/DCDV%20full%20White.png"
-                                              alt="logo" width="96" height="24" /></a>
-                                      <p>
-                                          Our mission is to harness the power of AI to solve complex
-                                          business challenges & decision-makers with data-driven
-                                          insights, and enhance user experiences across digital
-                                          platforms.
-                                      </p>
-                                      <p>
-                                          &copy; Copyright 2025-27, All Rights Reserved by DATACLAP
-                                      </p>
-                                  </div>
-                                  <!-- Footer Widget Item -->
-  
-                                  <!-- Footer Widget Item -->
-                                  <div class="flex flex-col gap-y-6">
-                                      
-  
-                                      <!-- Footer Navbar -->
-                                      <ul class="flex flex-col gap-y-[10px] capitalize">
-                                         
-                                          <li>
-                                              <a href="https://dataclap.co target=_blank"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Training data</a>
-                                          </li>
-                                          <li>
-                                              <a href="https://devops.dataclap.co target=_blank"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">DevOps</a>
-                                          </li>
-                                          <li>
-                                              <a href="https://devops.dataclap.co target=_blank"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">MLOps</a>
-                                          </li>
-                                          
-                                      </ul>
-                                  </div>
-                                  <!-- Footer Widget Item -->
-  
-                                  <!-- Footer Widget Item -->
-                                  <div class="flex flex-col gap-y-6">
-                                      
-  
-                                      <!-- Footer Navbar -->
-                                      <ul class="flex flex-col gap-y-[10px] capitalize">
-                                          <li>
-                                              <a href="NoCode.html"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">No Code</a>
-                                          </li>
-                                          <li>
-                                              <a href="wfa.html"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Workflow Automation</a>
-                                          </li>
-                                          <li>
-                                              <a href="faq-2.html"
-                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">FAQ</a>
-                                          </li>
-                                         
-                                      </ul>
-                                  </div>
-                                  <!-- Footer Widget Item -->
-  
-                                  <!-- Footer Widget Item -->
-                                  <div class="flex flex-col gap-y-6">
-                                      
-  
-                                      <!-- Footer Navbar -->
-                                      <ul class="flex flex-col gap-y-[15px] capitalize">
-                                          
-                                          <li>
-                                              <a href="http://www.twitter.com" class="group flex items-center gap-x-3">
-                                                  
-                                                  <span class="inline-block flex-1">Terms & Conditions</span>
-                                              </a>
-                                          </li>
-                                          <li>
-                                              <a href="http://www.instagram.com" class="group flex items-center gap-x-3">
-                                                  
-                                                  <span class="inline-block flex-1">Privacy Policy</span>
-                                              </a>
-                                          </li>
-                                          <li>
-                                              <a href="http://www.linkedin.com" class="group flex items-center gap-x-3">
-                                                  <div
-                                                      class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet">
-                                                      <img src="assets/img/th-1/linkedin-icon-white.svg"
-                                                          alt="linkedin-icon-white" width="14" height="14" />
-                                                  </div>
-                                                  <span class="inline-block flex-1">LinkedIn</span>
-                                              </a>
-                                          </li>
-                                        
-                                      </ul>
-                                  </div>
-                                  <!-- Footer Widget Item -->
-                              </div>
-                              <!-- Footer Widgets Block -->
-                          </div>
-                          <!-- Section Container -->
-                      </div>
-                      <!-- Footer Bottom -->
-                  </div>
-                  <!-- Section Spacer -->
-              </div>
-          </footer>
-          <!--...::: Footer-3 Section End :::... -->
-  
       </div>
-  
-      <!--Vendor js-->
-      <script src="assets/js/vendors/counterup.js" type="module"></script>
-      <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-      <script src="assets/js/vendors/fslightbox.js"></script>
-      <script src="assets/js/vendors/jos.min.js"></script>
-      <script src="assets/js/vendors/menu.js"></script>
-  
-      <!-- Main js -->
-      <script src="assets/js/main.js"></script>
-  </body>
-  
-  </html>
+    </header>
+    <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <section class="pt_banner_inner">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="banner_title_inner margin-b-10">
+                <h1 data-aos="fade-up" data-aos-delay="0">
+                  Our policies
+                </h1>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="section__showcase margin-b-6">
+        <div class="container">
+
+
+          <div class="block__tab">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="privacy-policy-tab" data-bs-toggle="tab"
+                  data-bs-target="#privacy-policy" type="button" role="tab" aria-controls="privacy-policy"
+                  aria-selected="true">Privacy Policy</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="gdpr-tab" data-bs-toggle="tab" data-bs-target="#gdpr" type="button"
+                  role="tab" aria-controls="gdpr" aria-selected="false">GDPR</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="data-security-tab" data-bs-toggle="tab" data-bs-target="#data-security"
+                  type="button" role="tab" aria-controls="data-security" aria-selected="false">Data Security</button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="privacy-policy" role="tabpanel"
+                aria-labelledby="privacy-policy-tab">
+                <div class="ss_software">
+                  <p>Last updated: 26/04/2020</p>
+                  <p>This page informs you of our policies regarding the collection, use and disclosure of Personal
+                    Information we receive from users of the Site.</p>
+                  <p>We use your Personal Information only for providing and improving the Site. By using the Site, you
+                    agree to the collection and use of information in accordance with this policy.</p>
+                  <p><b>Information Collection And Use</b></p>
+                  <p>While using our Site, we may ask you to provide us with certain personally identifiable information
+                    that can be used to contact or identify you. Personally identifiable information may include, but is
+                    not limited to your name ("Personal Information").</p>
+                  <p><b>Log Data</b></p>
+                  <p>Like many site operators, we collect information that your browser sends whenever you visit our Site
+                    ("Log Data").</p>
+                  <p>This Log Data may include information such as your computer's Internet Protocol ("IP") address,
+                    browser type, browser version, the pages of our Site that you visit, the time and date of your visit,
+                    the time spent on those pages and other statistics.</p>
+                  <p>In addition, we may use third party services such as Google Analytics that collect, monitor and
+                    analyze this …</p>
+                  <p><b>Communications</b></p>
+                  <p>We may use your Personal Information to contact you with newsletters, marketing or promotional
+                    materials and other information that ...</p>
+                  <p><b>Cookies</b></p>
+                  <p>Cookies are files with small amount of data, which may include an anonymous unique identifier.
+                    Cookies are sent to your browser from a web site and stored on your computer's hard drive.</p>
+                  <p>Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all
+                    cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may
+                    not be able to use some portions of our Site.</p>
+                  <p><b>Security</b></p>
+                  <p>The security of your Personal Information is important to us, but remember that no method of
+                    transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to
+                    use commercially acceptable means to protect your Personal Information, we cannot guarantee its
+                    absolute security.</p>
+                  <p><b>Changes To This Privacy Policy</b></p>
+                  <p>This Privacy Policy is effective as of 26/04/2020 and will remain in effect except with respect to
+                    any changes in its provisions in the future, which will be in effect immediately after being posted
+                    on this page.</p>
+                  <p>We reserve the right to update or change our Privacy Policy at any time and you should check this
+                    Privacy Policy periodically. Your continued use of the Service after we post any modifications to
+                    the Privacy Policy on this page will constitute your acknowledgment of the modifications and your
+                    consent to abide and be bound by the modified Privacy Policy.</p>
+                  <p>If we make any material changes to this Privacy Policy, we will notify you either through the email
+                    address you have provided us, or by placing a prominent notice on our website.</p>
+                  <p><b>Contact Us</b></p>
+                  <p>If you have any questions about this Privacy Policy, please contact us.</p>
+                  <br>
+                  <br>
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="gdpr" role="tabpanel" aria-labelledby="gdpr-tab">
+                <div class="ss_software">
+                  <p>Last updated: 26/04/2020</p>
+                  <p>This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
+                  <p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>
+                  <p><b>Information Collection And Use</b></p>
+                  <p>While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name ("Personal Information").</p>
+                  <p><b>Log Data</b></p>
+                  <p>Like many site operators, we collect information that your browser sends whenever you visit our Site ("Log Data").</p>
+                  <p>This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
+                  <p>In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this …</p>
+                  <p><b>Communications</b></p>
+                  <p>We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that ...</p>
+                  <p><b>Cookies</b></p>
+                  <p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.</p>
+                  <p>Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>
+                  <p><b>Security</b></p>
+                  <p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+                  <p><b>Changes To This Privacy Policy</b></p>
+                  <p>This Privacy Policy is effective as of 26/04/2020 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
+                  <p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
+                  <p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
+                  <p><b>Contact Us</b></p>
+                  <p>If you have any questions about this Privacy Policy, please contact us.</p>
+                  <br>
+                  <br>
+                  
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-view" role="tabpanel" aria-labelledby="pills-view-tab">
+                <div class="ss_software">
+                  <p><b>Data Processing Addendum</b></p>
+                  <p>This Data Processing Addendum (this “DPA”) is incorporated into the Terms of Service located at https://dataclap.co/GDPR (the “Agreement”) between the undersigned customer (“Customer”) and DataClap (the “Company”). Capitalized but undefined terms used in this DPA will have the meanings assigned to those terms in the Agreement. In the course of providing the Service to Customer pursuant to the Agreement, the Company may Process Personal Data on behalf of Customer. The Company agrees to comply with the following provisions with respect to its Processing of Customer Personal Data (as such term is defined herein).</p>
+                  <p><b>1. DEFINITIONS</b></p>
+                  <p>“Affiliate” means any entity that directly or indirectly controls, is controlled by, or is under common control with the subject entity. “Control,” for purposes of this definition, means direct or indirect ownership or control of more than 50% of the voting interests of the subject entity.</p>
+                  <p>“Controller” means the entity which determines the purposes and means of the Processing of Personal Data.</p>
+                  <p>“Customer Data” means any data, information or material originated by Customer that Customer submits, collects or provides in the course of using the Services, including any Customer Personal Data.</p>
+                  <p>“Customer Personal Data” means Personal Data submitted by or for Customer, or at Customer’s direction, to the Company in connection with Customer’s use of the Services, and to which Data Protection Laws apply.</p>
+                  <p>“Data Protection Laws” means all laws and regulations, including laws and regulations of the European Union, the European Economic Area and their member states, and the United Kingdom, applicable to the Processing of Customer Personal Data by the Company under the Agreement.</p>
+                  <p>“Data Subject” means an identified or identifiable natural person about whom the Company Processes Personal Data in connection with the Services.</p>
+                  <p>“DPA Effective Date” means, as applicable, (a) 25 May 2018, if the parties agreed to this DPA prior to or on such date; or (b) the date on which the parties agreed to this DPA, if such date is after 25 May 2018. “GDPR” means the EU General Data Protection Regulation 2016/679.</p>
+                  <p>“Personal Data” means any information which relates to an identified or identifiable natural person, and to which Data Protection Laws apply.</p>
+                  <p>“Personal Data Breach” means a breach of the Company’s security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, Customer Personal Data in the Company’s possession, custody or control.</p>
+                  <p>“Personal Data Breaches” will not include unsuccessful attempts or activities that do not compromise the security of Customer Personal Data, including unsuccessful log-in attempts, pings, port scans, denial of service attacks, and other network attacks on firewalls or networked systems.</p>
+                  <p>“Process/Processing” shall have the same meaning as “processing” as defined in the GDPR. “Processor” means the entity which Processes Personal Data on behalf of the Controller.</p>
+                  <p>“Security and Privacy Measures” appropriate technical and organizational measures to ensure a level of security appropriate to that risk, including, as appropriate, the measures referred to in Article 32(1) of the GDPR, that the Company generally makes available to its customers as updated from time to time, or otherwise made reasonably available by the Company.</p>
+                  <p>“Standard Contractual Clauses” means the agreement executed by and between Customer and the Company and attached to this Addendum as Annex 2 pursuant to European Commission Decision of 5 February 2010 on standard contractual clauses for the transfer of personal data to processors established in third countries under Directive 95/46/EC of the European Parliament and of the Council.</p>
+                  <p>“Sub-processor” means any entity that the Company engages to Process Customer’s Personal Data on behalf of the Company.</p>
+                  <p><b>2. PROCESSING OF CUSTOMER PERSONAL DATA</b></p>
+                  <p>2.1Roles of the Parties; Purpose. The parties acknowledge and agree that with regard to the Processing of Customer Personal Data, Customer is the Controller, the Company is a Processor and that the Company may engage Sub-processors pursuant to the requirements set forth herein. The subject matter and details of the processing are described in Annex 1.</p>
+                  <p>2.2 Company’s Processing of Personal Data. The Company shall only Process Customer Personal Data on behalf of and in accordance with Customer’s instructions. Customer instructs the Company to Process Customer Personal Data for the following purposes: (i) Processing in accordance with the Agreement; (ii) Processing initiated by Users in their use of the Services; and (iii) Processing to comply with other reasonable instructions provided by Customer (e.g., via email) where such instructions are consistent with the terms of the Agreement and this DPA. This DPA and the Agreement are Customer’s complete and final instructions to the Company for the Processing of Customer Personal Data. Any additional or alternate instructions must be agreed upon separately in writing signed by authorized representatives of both parties.
+                  </p>
+                  <p>2.3 Customer’s Processing of Personal Data. Customer shall, in its use of the Services, Process Customer Personal Data in accordance with the requirements of Data Protection Laws. Customer’s instructions for the Processing of Personal Data by the Company shall comply with all Data Protection Laws. Customer shall have sole responsibility for the accuracy, quality, and legality of Customer Personal Data and the means by which Customer acquired Personal Data.</p>
+                  <p>2.4 Security of Processing. The Company will secure Customer Personal Data by implementing the Security and Privacy Measures. The Company will not materially decrease the overall security of the Services during the term of the Agreement.</p>
+                  <p>2.5 Company’s Security Assistance. The Company will (taking into account the nature of the processing of Customer Personal Data and the information available to the Company) provide Customer with reasonable assistance necessary for Customer to comply with its obligations in respect of Customer Personal Data under Data Protection Laws, including Articles 32 to 34 (inclusive) of the GDPR, by (a) implementing the security measures in accordance with Section 2.4 (Security of Processing); and (b) complying with the terms of Section 2.8 (Personal Data Breach Notification).</p>
+                  <p>2.6 Customer’s Security Responsibilities. Customer agrees that, without prejudice to the Company’s obligations under Section 4 (Company Personnel) and Section 2.8 (Personal Data Breach Notification), Customer is solely responsible for its use of the Services, including (a) making appropriate use of the Services to ensure a level of security appropriate to the risk in respect of the Customer Personal Data; (b) securing the account authentication credentials, systems and devices Customer uses to access the Services; and (c) backing up its Customer Personal Data. Customer agrees that, without prejudice to the Company’s obligations under Section 4 (Company Personnel) and Section 2.8 (Personal Data Breach Notification), the Company has no obligation to protect Customer Personal Data that Customer elects to store or transfer outside of the Company’s and its Sub-processors’ systems (for example, offline or on-premises storage).</p>
+                  <p>2.7 Personal Data Breach Notification. The Company will notify Customer without undue delay after becoming aware of a Personal Data Breach. To the extent such Personal Data Breach is caused by a violation of the requirements of this DPA by the Company, the Company shall make reasonable efforts to identify and remediate the cause of such Personal Data Breach. Customer is solely responsible for complying with incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Personal Data Breach. The Company’s notification of or response to a Personal Data Breach under this Section 2.8 will not be construed as an acknowledgement by the Company of any fault or liability with respect to the Personal Data Breach. To the extent that the Standard Contractual Clauses apply, Customer agrees that the provisions of this Section 2.8 satisfy the requirements of Clause 5(d)(2).</p>
+                  <p>2.8 Impact Assessments and Consultations. The Company will (taking into account the nature of the processing and the information available to the Company) reasonably assist Customer in complying with its obligations under Data Protection Laws in respect of data protection impact assessments and prior consultation, including, if applicable, Customer’s obligations pursuant to Articles 35 and 36 of the GDPR, by (a) making available for review copies of the the third-party certifications and audits set forth in the Security, Privacy and Architecture Documentation or other documentation describing relevant aspects of the Company’s information security program and the security measures applied in connection therewith; (b) providing the information contained in the Agreement, including this DPA, and (c) providing a description of the processing of Customer Personal Data undertaken by the Company.</p>
+                  <p>2.9 Data Subject Rights. During the term of the Agreement, if the Company receives any request from a Data Subject in relation to Customer Personal Data, the Company will advise the Data Subject to submit their request to Customer and Customer will be responsible for responding to any such request. Upon request from Customer, the Company shall provide commercially reasonable assistance to Customer in relation to the handling of a Data Subject’s request for exercising the Data Subject’s rights laid down in Chapter III of the GDPR, taking into account the nature of the Company’s Processing of Customer Personal Data and solely to the extent Customer is unable to fulfill such requests through the Services. Customer shall be responsible for any costs arising from the Company’s provision of such assistance.</p>
+                  <p>2.10 Deletion of Customer Personal Data. The Company shall delete all Customer Personal Data and copies thereof upon request of Customer or upon termination or expiration of the Agreement, unless otherwise required by the applicable Data Protection Laws, provided, however, that the Company shall delete backup data and operational or system log data in the ordinary course of business. In the event applicable law does not permit the Company to delete the Personal Data, the Company warrants that it shall ensure the confidentiality of the Personal Data and that it shall not use or disclose any Personal Data after termination of the Agreement, except as required by law.</p>
+                  <p>2.11 Data Storage and Processing Facilities. The Company may, subject to Section 2.13 (Company’s Data Transfer Obligations), store and process Customer Personal Data anywhere the Company or its Sub-processors maintains facilities.</p>
+                  <p>2.12 Data Transfers. With respect to Customer Personal Data transferred from the European Economic Area (“EEA”) to outside the EEA in conjunction with Customer’s use of the Services, either directly or via onward transfer, the Company will provide at least the same level of protection for such Customer Personal Data as is required by the Standard Contractual Clauses.</p>
+                  <p>2.13 Audits. Company shall allow Customer and its respective auditors or authorized agents to conduct audits or inspections during the term of the Agreement, which shall include providing reasonable access to the premises, resources and personnel used by Company in connection with the provision of the Services and provide all reasonable assistance in order to assist Customer in exercising its audit rights under this section. The purposes of an audit pursuant to this section include to verify that Company is processing personal data in accordance with its obligations under the DPA and applicable Data Protection Laws. Notwithstanding the foregoing, such audit shall consist solely of: (i) the provision by Comapny of written information (including, without limitation, questionnaires and information about security policies) that may include information relating to subcontractors; and (ii) interviews with Company’s IT personnel. Such audit may be carried out by Customer or an inspection body composed of independent members and in possession of the required professional qualifications bound by a duty of confidentiality. For the avoidance of doubt no access to any part of Company’s IT system, data hosting sites or centers, or infrastructure will be permitted.</p>
+                  <p>2.14 Processing Records. Customer acknowledges that the Company is required under the GDPR to: (a) collect and maintain records of certain information, including the name and contact details of each processor and/or controller on behalf of which the Company is acting and, where applicable, of such processor’s or controller's local representative and data protection officer; and (b) make such information available to the supervisory authorities. Accordingly, if the GDPR applies to the processing of Customer Personal Data, Customer will, where requested, provide such information to the Company, and will ensure that all information provided is kept accurate and up-to-date.</p>
+                  <p><b>3. COMPANY PERSONNEL</b></p>
+                  <p>3.1 Confidentiality. The Company shall ensure that its personnel engaged in the Processing of Customer Personal Data are informed of the confidential nature of the Customer Personal Data, have received appropriate training on their responsibilities and have executed written confidentiality agreements or are under an appropriate statutory obligation of confidentiality. The Company shall ensure that such confidentiality obligations survive the termination of the personnel engagement.</p>
+                  <p>3.2 Limitation of Access. The Company shall ensure that its personnel’s access to Customer Personal Data is limited to those personnel who require such access to perform under the Agreement.</p>
+                  <p><b>4. SUB-PROCESSORS</b></p>
+                  <p>4.1 General Authorization. Customer authorizes the Company to subcontract processing of Customer Personal Data under this DPA to Sub-processors, provided that the Company: (a) provides Customer with such details about the Sub-processor(s) it uses as may be reasonably requested by Customer from time to time; (b) flows down its obligations under this DPA to such Sub-processor, such that the data processing requirements of such Sub-processor with respect to Customer Personal Data are no less onerous than the data processing requirements of the Company as set out in this DPA; and (c) will be fully liable to Customer for the performance of the Sub-processor’s obligations under this DPA if such Sub-processor fails to fulfill its data protection obligations. Information about Subprocessors, including their functions and locations, is available below:
+                  Paypal &amp; Stripe: payment processing and billing
+                  Google Big Query: aggregates and records notification, engagement, and click count for all users
+                  Heroku &amp; Amazon Web Services: used to host our web applications which include our databases
+                  </p>
+                  <p>4.2 New Sub-Processors. The Company will inform Customer of any intended changes concerning the addition or replacement of Sub-processors. If Customer has a reasonable basis to object to the Company’s use of a new Sub-processor, Customer shall notify the Company promptly in writing within ten (10) days after the Company informs Customer of such change. If such objection is not unreasonable, the Company will use reasonable efforts to make available to Customer a change in the affected Services or recommend a commercially reasonable change to Customer’s configuration or use of the affected Services to avoid processing of Customer Personal Data by such new Sub-processor. If the Company is unable to make available such change within a reasonable period of time, which shall not exceed sixty (60) days, Customer may terminate the applicable portion of the Services that cannot be provided by the Company without the use of the objected-to new Sub-processor, by providing written notice to the Company. Customer shall receive a refund of any prepaid fees for the period following the effective date of termination in respect of such terminated Services.</p>
+                  <p>4.3 Sub-Processor Agreements. The parties agree that if copies of the Sub-processor agreements must be sent by the Company to the Customer pursuant to this DPA or applicable Data Protection Laws, such copies may have all commercial information and clauses unrelated to this DPA removed by the Company beforehand; and, that such copies will be provided by the Company only upon reasonable request by Customer.</p>
+                  <p>4.4 Customer Consent to Sub-processing; Access to Sub-processing Agreements. To the extent the Standard Contractual Clauses apply:
+                  </p>
+                  <p>4.4.1 Customer consents to the Company’s transfer of Personal Data to Sub-processors as described in Sections 4.1 and 4.2 above, and agrees that Customer’s consent satisfies the requirements of Clauses 5(h) and 11.1; and</p>
+                  <p>4.4.2 Upon Customer’s written request, the Company shall allow Customer to examine the data protection provisions of agreements between the Company and its subcontractors that access Customer Personal Data; provided that such agreements shall remain the Company’s Confidential Information. Customer agrees that this Section 4.4.2 satisfies the requirements of Clause 5(j) of the Standard Contractual Clauses.</p>
+                  <p><b>5. GENERAL PROVISIONS</b></p>
+                  <p>5.1 Conflicting Terms. This DPA applies only between Customer and the Company and does not confer any rights to any third party. To the extent of any conflict or inconsistency between this DPA and the remaining terms of the Agreement, this DPA will govern. This DPA does not replace any additional rights related to the Company’s processing of Customer’s data as set forth in the Agreement.</p>
+                  <p>5.2 Term and Termination. This DPA will become effective (a) 25 May 2018, if the parties agreed to this DPA prior to or on such date; or (b) the date on which the parties agreed to this DPA, if such date is after 25 May 2018. This DPA will terminate simultaneously and automatically upon the termination of the Agreement. The Company may terminate this DPA at any time upon notice to Customer if the Company offers alternative means to Customer that comply with all applicable Data Protection Laws. Customer may terminate this DPA at Customer’s discretion upon the Company’s receipt of Customer’s written notice of termination.</p>
+                  <p>5.3 Liability. The total combined liability of either party and its Affiliates towards the other party and its Affiliates, whether in contract, tort or any other theory of liability, under or in connection with the Agreement, this DPA, combined will be limited to limitations on liability or other liability caps agreed to by the parties in the Agreement.</p>
+                  <p>5.4 Governing Law. To the extent required by the applicable Data Protection Laws, this DPA shall be governed by the laws of the applicable jurisdiction. In all other cases, this DPA shall be governed by the laws of the jurisdiction stated in the Agreement.</p>
+                  <p><b>Annex 1</b></p>
+                  <p>Subject Matter and Details of the Data Processing</p>
+                  <p><b>Subject Matter</b> The Company’s provision of the Services to Customer.</p>
+                  <p><b>Duration of the Processing</b> Until deletion of all Customer Personal Data by the Company in accordance with the DPA.</p>
+                  <p><b>Nature and Purpose of the Processing</b> The Company will process Customer Personal Data for the purposes of providing the Services to Customer in accordance with the DPA and the Agreement.</p>
+                  <p><b>Categories of Data</b> Data relating to individuals provided to, or collected by, the Company in connection with the Services, by (or at the direction of) Customer.</p>
+                  <p><b>Data Subjects</b> Data subjects include the individuals about whom the Company Processes data in connection with the Services.</p>
+                  <p><b>Annex 2</b></p>
+                  <p><b>STANDARD CONTRACTUAL CLAUSES (PROCESSORS)</b></p>
+                  <p>This Annex 2 is part 2 of 2 and must be accompanied by and signed with part 1 of 2 titled “Data Processing Addendum” to be valid.</p>
+                  <p>For the purposes of Article 26(2) of Directive 95/46/EC for the transfer of personal data to processors established in third countries which do not ensure an adequate level of data protection</p>
+                  <p>Name of the data exporting organization: [INSERT CUSTOMER NAME]</p>
+                  <p>(the data exporter)</p>
+                  <p>And</p>
+                  <p>Name of the data importing organization: DataClap.</p>
+                  <p>(the data importer)</p>
+                  <p>each a ‘party’; together ‘the parties’,
+                  HAVE AGREED on the following Contractual Clauses (the Clauses) in order to adduce adequate safeguards with respect to the protection of privacy and fundamental rights and freedoms of individuals for the transfer by the data exporter to the data importer of the personal data specified in Appendix 1.</p>
+                  <p><b>Clause 1</b></p>
+                  <p>Definitions</p>
+                  <p>For the purposes of the Clauses:</p>
+                  <p>(a) ‘personal data’, ‘special categories of data’, ‘process/processing’, ‘controller’, ‘processor’, ‘data subject’ and ‘supervisory authority’ shall have the same meaning as in Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data;</p>
+                  <p>(b) ‘the data exporter’ means the controller who transfers the personal data;</p>
+                  <p>(c) ‘the data importer’ means the processor who agrees to receive from the data exporter personal data intended for processing on his behalf after the transfer in accordance with his instructions and the terms of the Clauses and who is not subject to a third country’s system ensuring adequate protection within the meaning of Article 25(1) of Directive 95/46/EC;</p>
+                  <p>(d) ‘the sub-processor’ means any processor engaged by the data importer or by any other sub-processor of the data importer who agrees to receive from the data importer or from any other sub-processor of the data importer personal data exclusively intended for processing activities to be carried out on behalf of the data exporter after the transfer in accordance with his instructions, the terms of the Clauses and the terms of the written subcontract;</p>
+                  <p>(e) ‘the applicable data protection law’ means the legislation protecting the fundamental rights and freedoms of individuals and, in particular, their right to privacy with respect to the processing of personal data applicable to a data controller in the Member State in which the data exporter is established;</p>
+                  <p>(f) ‘technical and organisational security measures’ means those measures aimed at protecting personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorised disclosure or access, in particular where the processing involves the transmission of data over a network, and against all other unlawful forms of processing.</p>
+                  <p>Clause 2</p>
+                  <p>Details of the transfer</p>
+                  <p>The details of the transfer and in particular the special categories of personal data where applicable are specified in Appendix 1 which forms an integral part of the Clauses.</p>
+                  <p>Clause 3</p>
+                  <p>Third-party beneficiary clause</p>
+                  <p>1. The data subject can enforce against the data exporter this Clause, Clause 4(b) to (i), Clause 5(a) to (e), and (g) to (j), Clause 6(1) and (2), Clause 7, Clause 8(2), and Clauses 9 to 12 as third-party beneficiary.</p>
+                  <p>2. The data subject can enforce against the data importer this Clause, Clause 5(a) to (e) and (g), Clause 6, Clause 7, Clause 8(2), and Clauses 9 to 12, in cases where the data exporter has factually disappeared or has ceased to exist in law unless any successor entity has assumed the entire legal obligations of the data exporter by contract or by operation of law, as a result of which it takes on the rights and obligations of the data exporter, in which case the data subject can enforce them against such entity.</p>
+                  <p>3. The data subject can enforce against the sub-processor this Clause, Clause 5(a) to (e) and (g), Clause 6, Clause 7, Clause 8(2), and Clauses 9 to 12, in cases where both the data exporter and the data importer have factually disappeared or ceased to exist in law or have become insolvent, unless any successor entity has assumed the entire legal obligations of the data exporter by contract or by operation of law as a result of which it takes on the rights and obligations of the data exporter, in which case the data subject can enforce them against such entity. Such third-party liability of the subprocessor shall be limited to its own processing operations under the Clauses.</p>
+                  <p>4. The parties do not object to a data subject being represented by an association or other body if the data subject so expressly wishes and if permitted by national law.</p>
+                  <p>Clause 4</p>
+                  <p>Obligations of the data exporter</p>
+                  <p>The data exporter agrees and warrants:</p>
+                  <p>(a) that the processing, including the transfer itself, of the personal data has been and will continue to be carried out in accordance with the relevant provisions of the applicable data protection law (and, where applicable, has been notified to the relevant authorities of the Member State where the data exporter is established) and does not violate the relevant provisions of that State;</p>
+                  <p>(b) that it has instructed and throughout the duration of the personal data-processing services will instruct the data importer to process the personal data transferred only on the data exporter’s behalf and in accordance with the applicable data protection law and the Clauses;</p>
+                  <p>(c) that the data importer will provide sufficient guarantees in respect of the technical and organisational security measures specified in Appendix 2 to this contract;</p>
+                  <p>(d) that after assessment of the requirements of the applicable data protection law, the security measures are appropriate to protect personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access, in particular where the processing involves the transmission of data over a network, and against all other unlawful forms of processing, and that these measures ensure a level of security appropriate to the risks presented by the processing and the nature of the data to be protected having regard to the state of the art and the cost of their implementation;</p>
+                  <p>(e) that it will ensure compliance with the security measures;</p>
+                  <p>(f) that, if the transfer involves special categories of data, the data subject has been informed or will be informed before, or as soon as possible after, the transfer that its data could be transmitted to a third country not providing adequate protection within the meaning of Directive 95/46/EC;</p>
+                  <p>(g) to forward any notification received from the data importer or any sub-processor pursuant to Clause 5(b) and Clause 8(3) to the data protection supervisory authority if the data exporter decides to continue the transfer or to lift the suspension;</p>
+                  <p>(h) to make available to the data subjects upon request a copy of the Clauses, with the exception of Appendix 2, and a summary description of the security measures, as well as a copy of any contract for sub-processing services which has to be made in accordance with the Clauses, unless the Clauses or the contract contain commercial information, in which case it may remove such commercial information;</p>
+                  <p>(i) that, in the event of sub-processing, the processing activity is carried out in accordance with Clause 11 by a subprocessor providing at least the same level of protection for the personal data and the rights of data subject as the data importer under the Clauses; and</p>
+                  <p>(j) that it will ensure compliance with Clause 4(a) to (i).</p>
+                  <p>Clause 5</p>
+                  <p>Obligations of the data importer</p>
+                  <p>The data importer agrees and warrants:</p>
+                  <p>(a) to process the personal data only on behalf of the data exporter and in compliance with its instructions and the Clauses; if it cannot provide such compliance for whatever reasons, it agrees to inform promptly the data exporter of its inability to comply, in which case the data exporter is entitled to suspend the transfer of data and/or terminate the contract;</p>
+                  <p>(b) that it has no reason to believe that the legislation applicable to it prevents it from fulfilling the instructions received from the data exporter and its obligations under the contract and that in the event of a change in this legislation which is likely to have a substantial adverse effect on the warranties and obligations provided by the Clauses, it will promptly notify the change to the data exporter as soon as it is aware, in which case the data exporter is entitled to suspend the transfer of data and/or terminate the contract;</p>
+                  <p>(c) that it has implemented the technical and organisational security measures specified in Appendix 2 before processing the personal data transferred;</p>
+                  <p>(d) that it will promptly notify the data exporter about:</p>
+                  <p>(i) any legally binding request for disclosure of the personal data by a law enforcement authority unless otherwise prohibited, such as a prohibition under criminal law to preserve the confidentiality of a law enforcement investigation;
+                  </p>
+                  <p>(ii) any accidental or unauthorised access; and</p>
+                  <p>(iii) any request received directly from the data subjects without responding to that request, unless it has been otherwise authorised to do so;</p>
+                  <p>(e) to deal promptly and properly with all inquiries from the data exporter relating to its processing of the personal data subject to the transfer and to abide by the advice of the supervisory authority with regard to the processing of the data transferred;</p>
+                  <p>(f) at the request of the data exporter to submit its data-processing facilities for audit of the processing activities covered by the Clauses which shall be carried out by the data exporter or an inspection body composed of independent members and in possession of the required professional qualifications bound by a duty of confidentiality, selected by the data exporter, where applicable, in agreement with the supervisory authority;</p>
+                  <p>(g) to make available to the data subject upon request a copy of the Clauses, or any existing contract for sub-processing, unless the Clauses or contract contain commercial information, in which case it may remove such commercial information, with the exception of Appendix 2 which shall be replaced by a summary description of the security measures in those cases where the data subject is unable to obtain a copy from the data exporter;</p>
+                  <p>(h) that, in the event of sub-processing, it has previously informed the data exporter and obtained its prior written consent;</p>
+                  <p>(i) that the processing services by the sub-processor will be carried out in accordance with Clause 11;</p>
+                  <p>(j) to send promptly a copy of any sub-processor agreement it concludes under the Clauses to the data exporter.
+                  Clause 6</p>
+                  <p>Liability</p>
+                  <p>1. The parties agree that any data subject, who has suffered damage as a result of any breach of the obligations referred to in Clause 3 or in Clause 11 by any party or sub-processor is entitled to receive compensation from the data exporter for the damage suffered.</p>
+                  <p>2. If a data subject is not able to bring a claim for compensation in accordance with paragraph 1 against the data exporter, arising out of a breach by the data importer or his sub-processor of any of their obligations referred to in Clause 3 or in Clause 11, because the data exporter has factually disappeared or ceased to exist in law or has become insolvent, the data importer agrees that the data subject may issue a claim against the data importer as if it were the data exporter, unless any successor entity has assumed the entire legal obligations of the data exporter by contract of by operation of law, in which case the data subject can enforce its rights against such entity.
+                  The data importer may not rely on a breach by a sub-processor of its obligations in order to avoid its own liabilities.</p>
+                  <p>3. If a data subject is not able to bring a claim against the data exporter or the data importer referred to in paragraphs 1 and 2, arising out of a breach by the sub-processor of any of their obligations referred to in Clause 3 or in Clause 11 because both the data exporter and the data importer have factually disappeared or ceased to exist in law or have become insolvent, the sub-processor agrees that the data subject may issue a claim against the data sub-processor with regard to its own processing operations under the Clauses as if it were the data exporter or the data importer, unless any successor entity has assumed the entire legal obligations of the data exporter or data importer by contract or by operation of law, in which case the data subject can enforce its rights against such entity. The liability of the sub-processor shall be limited to its own processing operations under the Clauses.</p>
+                  <p>Clause 7</p>
+                  <p>Mediation and jurisdiction</p>
+                  <p>1. The data importer agrees that if the data subject invokes against it third-party beneficiary rights and/or claims compensation for damages under the Clauses, the data importer will accept the decision of the data subject:
+                  (a) to refer the dispute to mediation, by an independent person or, where applicable, by the supervisory authority;
+                  (b) to refer the dispute to the courts in the Member State in which the data exporter is established.</p>
+                  <p>2. The parties agree that the choice made by the data subject will not prejudice its substantive or procedural rights to seek remedies in accordance with other provisions of national or international law.</p>
+                  <p>Clause 8</p>
+                  <p>Cooperation with supervisory authorities</p>
+                  <p>1. The data exporter agrees to deposit a copy of this contract with the supervisory authority if it so requests or if such deposit is required under the applicable data protection law.</p>
+                  <p>2. The parties agree that the supervisory authority has the right to conduct an audit of the data importer, and of any sub-processor, which has the same scope and is subject to the same conditions as would apply to an audit of the data exporter under the applicable data protection law.</p>
+                  <p>3. The data importer shall promptly inform the data exporter about the existence of legislation applicable to it or any sub-processor preventing the conduct of an audit of the data importer, or any sub-processor, pursuant to paragraph 2. In such a case the data exporter shall be entitled to take the measures foreseen in Clause 5(b).</p>
+                  <p>Clause 9</p>
+                  <p>Governing law</p>
+                  <p>The Clauses shall be governed by the law of the Member State in which the data exporter is established.</p>
+                  <p>Clause 10</p>
+                  <p>Variation of the contract</p>
+                  <p>The parties undertake not to vary or modify the Clauses. This does not preclude the parties from adding clauses on business related issues where required as long as they do not contradict the Clause.</p>
+                  <p>Clause 11</p>
+                  <p>Sub-processing</p>
+                  <p>1. The data importer shall not subcontract any of its processing operations performed on behalf of the data exporter under the Clauses without the prior written consent of the data exporter. Where the data importer subcontracts its obligations under the Clauses, with the consent of the data exporter, it shall do so only by way of a written agreement with the sub-processor which imposes the same obligations on the sub-processor as are imposed on the data importer under the Clauses. Where the sub-processor fails to fulfil its data protection obligations under such written agreement the data importer shall remain fully liable to the data exporter for the performance of the sub-processor’s obligations under such agreement.</p>
+                  <p>2. The prior written contract between the data importer and the sub-processor shall also provide for a third-party beneficiary clause as laid down in Clause 3 for cases where the data subject is not able to bring the claim for compensation referred to in paragraph 1 of Clause 6 against the data exporter or the data importer because they have factually disappeared or have ceased to exist in law or have become insolvent and no successor entity has assumed the entire legal obligations of the data exporter or data importer by contract or by operation of law. Such third-party liability of the sub-processor shall be limited to its own processing operations under the Clauses.</p>
+                  <p>3. The provisions relating to data protection aspects for sub-processing of the contract referred to in paragraph 1 shall be governed by the law of the Member State in which the data exporter is established, namely</p>
+                  <p>4. The data exporter shall keep a list of sub-processing agreements concluded under the Clauses and notified by the data importer pursuant to Clause 5(j), which shall be updated at least once a year. The list shall be available to the data exporter’s data protection supervisory authority.</p>
+                  <p>Clause 12</p>
+                  <p>Obligation after the termination of personal data-processing services</p>
+                  <p>1. The parties agree that on the termination of the provision of data-processing services, the data importer and the sub-processor shall, at the choice of the data exporter, return all the personal data transferred and the copies thereof to the data exporter or shall destroy all the personal data and certify to the data exporter that it has done so, unless legislation imposed upon the data importer prevents it from returning or destroying all or part of the personal data transferred. In that case, the data importer warrants that it will guarantee the confidentiality of the personal data transferred and will not actively process the personal data transferred anymore.</p>
+                  <p>2. The data importer and the sub-processor warrant that upon request of the data exporter and/or of the supervisory authority, it will submit its data-processing facilities for an audit of the measures referred to in paragraph 1.</p>
+                  <p>Appendix 1</p>
+                  <p>to the Standard Contractual Clauses</p>
+                  <p>This Appendix forms part of the Clauses and must be completed and signed by the parties.
+                  The Member States may complete or specify, according to their national procedures, any additional necessary information to be contained in this Appendix.</p>
+                  <p>Data exporter</p>
+                  <p>The data exporter is the Customer under the Agreement and obtains the Services in accordance with the terms of the Agreement. The data exporter submits Customer Data for use in the provision of the Services</p>
+                  <p>Data importer</p>
+                  <p>The data importer is a legal entity that provides services through which data exporter can conduct marketing and related advertising activities on the Internet.</p>
+                  <p>Data subjects</p>
+                  <p>The personal data transferred concern the following categories of data subjects:</p>
+                  <p>☒ Employees of the data exporter and any affiliate entities.</p>
+                  <p>☒ Customers of the data exporter and any affiliate entities.</p>
+                  <p>☒ Consumers</p>
+                  <p>Categories of data</p>
+                  <p>The personal data transferred concern the following categories of data:</p>
+                  <p>☒ The personal data of data exporter’s and any affiliate entities’ employees generated in the normal course of business, including but not limited to: name and email address.</p>
+                  <p>☒ The personal data of data exporter’s and its affiliate entities’ customers generated in the normal course of business, including but not limited to: name and email address.</p>
+                  <p>☒ Browsing data</p>
+                  <p>Special categories of data (if appropriate)</p>
+                  <p>None, other than to the extent incorporated into the categories of data set forth above, which will be determined solely by the employees, customers and consumers set forth above.</p>
+                  <p>Processing operations</p>
+                  <p>The personal data transferred will be subject to the following basic processing activities:</p>
+                  <p>Data Importer provides services through which Data Exporter provides services through which data exporter can conduct marketing and related advertising activities on the Internet.</p>
