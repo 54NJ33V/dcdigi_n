@@ -1,288 +1,135 @@
- <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<script>function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");
-o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,
-o.onload=function(){window.trackingFunctions.onLoad({appId:"6632556d3f807b0300b6020d"})},
-document.head.appendChild(o)}initApollo();</script>
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165278546-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATACLAP DIGITAL Workflow Automation Solutions</title>
+    <meta name="description" content="DATACLAP is a leading workflow automation agency specializing in Activepieces, Automatisch, n8n and Zapier. We automate your sales, marketing, and business processes to save time, reduce costs, and improve accuracy. Contact us for tailored automation solutions." />
 
-  gtag('config', 'UA-165278546-1');
-</script>
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Image annotation services for models that helps improve sports performance and contant recommendation across media channels" />
-  <meta name="keywords" content="Data annotation, Image annotation Data labeling, Image labeling, Image tagging, Training data, AI, Computer vision, ML, Machine learning, Human in the loop, HITL, Sports analytics, Human pose detection, Content recommendation" />
-  <meta name="author" content="DataClap -  Training data and Human in the Loop services"/>
+    <!-- site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
 
-  <title>DataClap - Image annotation and Human in the Loop services</title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/img/icons/favicon.ico" type="image/x-icon" />
-  <!-- Bootstrap 4.5 -->
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css" />
-  <!-- animate -->
-  <link rel="stylesheet" href="./assets/css/animate.css" type="text/css" />
-  <!-- Swiper -->
-  <link rel="stylesheet" href="./assets/css/swiper.min.css" />
-  <!-- aos -->
-  <link rel="stylesheet" href="./assets/css/aos.css" type="text/css" />
-  <!-- icons -->
-  <link rel="stylesheet" href="./assets/css/icons.css" type="text/css" />
-  <!-- main css -->
-  <link rel="stylesheet" href="./assets/css/main.css" type="text/css" />
-  <!-- normalize -->
-  <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css" />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
 </head>
 
 <body>
-  <div id="wrapper">
-    <div id="content">
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">   
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/DCDV_FULL_B.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
 
-            <!-- Start header -->
-            <header class="header-nav-center header-nav-left no_blur crypto_1 light nav-product active-orange" id="myNavbar">
-                <div class="container">
-                    <!-- navbar -->
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand c-white" href="index.html">
-                            <img class="logo" src="./assets/img/icons/logo_name.svg" alt="DataClap logo" />
-                        </a>
-                        <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <svg viewBox="0 0 64 48">
-                                <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                                <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                                <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-                            </svg>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto nav-pills">
-                                <li class="nav-item dropdown dropdown-hover dropdown_full position-static">
-                                    <a class="nav-link dropdown-toggle dropdown_menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Services
-
-                                        <div class="icon_arrow">
-                                            <i class="tio chevron_right"></i>
-                                        </div>
-
-                                    </a>
-                                    <div class="dropdown-menu single-drop" aria-labelledby="navbarDropdown">
-                                        <div class="dropdown_menu_nav">
-                                            <!-- menu #1 -->
-                                            <div class="item_colume">
-                                                <span class="sub_title">Training Data</span>
-                                                <div class="sub_nav_menu">
-                                                    <ul class="nav_meun">
-                                                        <li>
-                                                            <a href="imageannotation.html" class="dropdown-item">Image Annotation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="LiDAR annotation.html" class="dropdown-item">LiDAR Annotation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="video annotation.html" class="dropdown-item">Video Annotation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="text annotation.html" class="dropdown-item">Text Annotation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="audio annotation.html" class="dropdown-item">Audio Annotation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="data_collection.html" class="dropdown-item">Data Collection</a>
-                                                        </li>
-                                                         <li>
-                                                            <a href="https://market.dataclap.co" target="_blank" class="dropdown-item">Marketplace ✨</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <!-- menu #3 -->
-                                            <div class="item_colume">
-                                                <span class="sub_title">Human in the Loop</span>
-                                                <div class="sub_nav_menu">
-                                                    <ul class="nav_meun">
-                                                        <li>
-                                                            <a href="HITL_workforce.html" class="dropdown-item">Workforce</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="HITL_use cases.html" class="dropdown-item">Use cases</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="HITL_platform.html" class="dropdown-item">Platform</a>
-                                                        </li>
-
-
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                               
+                                
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Services
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="services.html">Training Data</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">DevOps</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">MLOps</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">No Code</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">Workflow Automation</a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li class="nav-item dropdown dropdown-hover dropdown_full position-static">
-                                    <a class="nav-link dropdown-toggle dropdown_menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Industries
+                             <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">Techstack</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Resources
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-3">
+                                        
+                                       
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
+                                              
+                                            </a>
+                                           
+                                        </li>
+                                   
+                                        <li class="sub-menu--item">
+                                            <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
+                                            </a>
+                                        </li>
+                                        
 
-                                        <div class="icon_arrow">
-                                            <i class="tio chevron_right"></i>
-                                        </div>
-
-                                    </a>
-                                    <div class="dropdown-menu single-drop" aria-labelledby="navbarDropdown">
-                                        <div class="dropdown_menu_nav">
-                                            <!-- menu #1 -->
-                                            <div class="item_colume">
-
-                                                <div class="sub_nav_menu">
-                                                    <ul class="nav_meun">
-                                                        <li>
-                                                            <a href="adas.html" class="dropdown-item">ADAS</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="retail.html" class="dropdown-item">Retail</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="geospatial.html" class="dropdown-item">Geospatial</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="robotics.html" class="dropdown-item">Robotics</a>
-                                                        </li>
-                                                        
-                                                        <li><a href="mapping.html" class="dropdown-item">Mapping</a>
-
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <!-- menu #2 -->
-                                            <div class="item_colume">
-
-                                                <div class="sub_nav_menu">
-                                                    <ul class="nav_meun">
-                                                        <li>
-                                                            <a href="social%20media.html" class="dropdown-item">Social Media</a>
-
-                                                        </li>
-                                                        <li>
-                                                            <a href="manufacturing.html" class="dropdown-item">Manufacturing</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="agriculture.html" class="dropdown-item">Agriculture</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="sports%20and%20media.html" class="dropdown-item">Sports & Media</a>
-                                                        </li>
-                                                    <li>    <a href="finance%20and%20insurance.html" class="dropdown-item">Finance & Insurance</a>
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a href="https://app.dover.com/jobs/dataclapdigital target=_blank" class="nav-link-item">Careers</a>
                                 </li>
                             </ul>
-                        </div>
-                </div>
-
-                <!-- menu #3 -->
-                <div class="item_colume">
-
-                    <div class="sub_nav_menu">
-                        <ul class="nav_meun">
-                            <li>
-                                <a href="customer%20service.html" class="dropdown-item">Customer Service</a>
-                            </li>
-                            <li>
-                                <a href="RPA.html" class="dropdown-item">RPA</a>
-                            </li>
-                            <li>
-                                <a href="document%20processing.html" class="dropdown-item">Document Processing</a>
-                            </li>
-                            <li>
-                                <a href="e%20commerce%20and%20content.html" class="dropdown-item">Ecommerce & Content</a>
-                            </li>
-
-                        </ul>
+                        </nav>
                     </div>
+                    <!-- Header Navigation -->
+
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                       
+                        <a href="contact.html"
+                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Contact</a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
                 </div>
-        
-    </div>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="pricing.html">Pricing</a>
-    </li>
-
-    <li class="nav-item dropdown dropdown-hover">
-        <a class="nav-link dropdown-toggle dropdown_menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Resources
-
-
-        </a>
-        <div class="dropdown-menu single-drop sm_dropdown" aria-labelledby="navbarDropdown">
-            <ul class="dropdown_menu_nav">
-
-                <li class="dropdown-submenu dropdown-hover"><a class="dropdown-item dropdown-toggle dropdown_menu d-flex justify-content-between" href="blog.html">
-                        Blog
-
-                    </a>
-
-                </li>
-
-            </ul>
-
-        </div>
-    </li>
-
-    <li class="nav-item dropdown dropdown-hover">
-        <a class="nav-link dropdown-toggle dropdown_menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Company
-
-
-
-        </a>
-        <div class="dropdown-menu single-drop sm_dropdown" aria-labelledby="navbarDropdown">
-            <ul class="dropdown_menu_nav">
-
-                <li class="dropdown-submenu dropdown-hover"><a class="dropdown-item dropdown-toggle dropdown_menu d-flex justify-content-between" href="about.html">
-                        About
-
-                    </a>
-
-                </li>
-
-                <li class="dropdown-submenu dropdown-hover"><a class="dropdown-item dropdown-toggle dropdown_menu d-flex justify-content-between" href="careers.html">
-                        Careers
-
-                    </a>
-
-                </li>
-
-            </ul>
-
-        </div>
-    </li>
-
-    </ul>
-    <div class="nav_account btn_demo3">
-        <a href="contact.html" class="btn btn_md_primary scale border-0  bg-blue c-white rounded-8">
-            <div class="inside_item">
-                <span>Get a demo</span>
             </div>
-        </a>
-    </div>
-    </div>
-    </nav>
-    <!-- End Navbar -->
-    </div>
-    <!-- end container -->
-    </header>
-    <!-- End header -->
+        </header>
+        <!--...::: Header End :::... -->
         <!-- Stat main -->
       <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
         <!-- Start banner_about -->
@@ -768,170 +615,175 @@ minimum impact to the service delivery.
        
     
 
-        <!-- Start Footer -->
-            <footer class="defalut-footer light padding-py-12">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <div class="item_about">
-                        <a class="logo" href="crypto-currency.html">
-                            <img class="logo" src="./assets/img/icons/logo_name_dark.svg" alt="DataClap" />
-                        </a>
-                        <p>
-                            High quality training data for AI, ML and Computer Vision.
-                        </p>
-                        <div class="address">
-                            <div class="icon">
-                            
-                                <a href="https://in.linkedin.com/company/dataclap" target='_blank'> <img src="./assets/img/icons/linked-in.svg" alt="DataClap's Linkedin page" /></a>
-                                <a href="mailto:sales@dataclap.co" class="px-2"><img src="./assets/img/icons/mail.svg" alt="Contact DataClap" /></a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="nav_account btn_demo3">
-                        <br>
-                        <a href="contact.html" class="btn btn_md_primary scale border-0  bg-blue c-white rounded-8">
-                            <div class="inside_item">
-                                <span>Contact Us</span>
-                            </div>
-                        </a>
-                    </div>
-                    <br>
-                    <div class="address">
-                        <div class="icon" href="https://in.linkedin.com/company/dataclap" target='_blank'>
-
-                            <img src='./assets/img/inner/ISO-27001-Logo.png' id="logo" height="40%" width="40%" alt="logo of ISO 27001 indicating DataClap is ISO certified for data security"/>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-6 col-md-6 col-lg-2">
-                    <div class="item_links">
-                        <h4>INDUSTRIES</h4>
-                        <a class="nav-link" href="adas.html">ADAS</a>
-                        <a class="nav-link" href="retail.html">Retail</a>
-                        <a class="nav-link" href="geospatial.html">Geospatial</a>
-                        <a class="nav-link" href="robotics.html">Robotics</a>
-                        <a class="nav-link" href="finance%20and%20insurance.html">Finance & Insurance</a>
-                        <a class="nav-link" href="mapping.html">Mapping</a>
-                        <a class="nav-link" href="manufacturing.html">Manufacturing</a>
-
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-2">
-                    <div class="item_links">
-                        <h4>&nbsp</h4>
-                        <a class="nav-link" href="agriculture.html">Agriculture</a>
-                        <a class="nav-link" href="sports%20and%20media.html">Sports & Media</a>
-                        <a class="nav-link" href="social%20media.html">Social Media</a>
-                        <a class="nav-link" href="customer%20service.html">Customer Services</a>
-                        <a class="nav-link" href="RPA.html">RPA</a>
-                        <a class="nav-link" href="document%20processing.html">Document Processing</a>
-                        <a class="nav-link" href="e%20commerce%20and%20content.html">E commerce & Content</a>
-
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-2">
-                    <div class="item_links">
-                        <h4>SERVICES</h4>
-                        <a class="nav-link" href="imageannotation.html">Image Annotation</a>
-                        <a class="nav-link" href="LiDAR annotation.html">LiDAR Annotation</a>
-                        <a class="nav-link" href="video annotation.html">Video Annotation</a>
-                        <a class="nav-link" href="text annotation.html">Text Annotation</a>
-                        <a class="nav-link" href="audio annotation.html">Audio Annotation</a>
-                        <a class="nav-link" href="data_collection.html">Data Collection</a>
-                        <a class="nav-link" href="HITL_usecases.html">Human in the Loop</a>                         <a class="nav-link" style="color: tomato" href="https://www.dataclapdigital.com" target="_blank">Digital Transformation</a>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-2">
-                    <div class="item_links">
-                        <h4>COMPANY</h4>
-                        <a class="nav-link" href="about.html">About</a>
-                        <a class="nav-link" href="blog.html">Blog</a>
-                        <a class="nav-link" href="careers.html">Careers</a>
-                        <a class="nav-link" href="terms.html">Privacy & Terms</a>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="col-12 text-center padding-t-4">
-                <div class="copyright">
-                    <span>© 2024-2026
-                        <a>DATACLAP.</a>
-                        All Rights Reseved</span>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-
-        <!-- Back to top with progress indicator-->
-        <div class="prgoress_indicator">
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
-
-             
-
-
-    </div>
-    <!-- End. warapper -->
-
-    <!-- jquery -->
-    <script src="./assets/js/jquery-3.5.0.js" type="text/javascript"></script>
-    <!-- jquery-migrate -->
-    <script src="./assets/js/jquery-migrate.min.js" type="text/javascript"></script>
-    <!-- popper -->
-    <script src="./assets/js/popper.min.js" type="text/javascript"></script>
-    <!-- bootstrap -->
-    <script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
-    <!--
-  ============
-  vendor file
-  ============
-   -->
-    <!-- particles -->
-    <script src="./assets/js/vendor/particles.min.js" type="text/javascript"></script>
-    <!-- TweenMax -->
-    <script src="./assets/js/vendor/TweenMax.min.js" type="text/javascript"></script>
-    <!-- ScrollMagic -->
-    <script src="./assets/js/vendor/ScrollMagic.js" type="text/javascript"></script>
-    <!-- animation.gsap -->
-    <script src="./assets/js/vendor/animation.gsap.js" type="text/javascript"></script>
-    <!-- addIndicators -->
-    <script src="./assets/js/vendor/debug.addIndicators.min.js" type="text/javascript"></script>
-    <!-- Swiper js -->
-    <script src="./assets/js/vendor/swiper.min.js" type="text/javascript"></script>
-    <!-- countdown -->
-    <script src="./assets/js/vendor/countdown.js" type="text/javascript"></script>
-    <!-- simpleParallax -->
-    <script src="./assets/js/vendor/simpleParallax.min.js" type="text/javascript"></script>
-    <!-- waypoints -->
-    <script src="./assets/js/vendor/waypoints.min.js" type="text/javascript"></script>
-    <!-- counterup -->
-    <script src="./assets/js/vendor/jquery.counterup.min.js" type="text/javascript"></script>
-    <!-- charming -->
-    <script src="./assets/js/vendor/charming.min.js" type="text/javascript"></script>
-    <!-- imagesloaded -->
-    <script src="./assets/js/vendor/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-    <!-- BX-Slider -->
-    <script src="./assets/js/vendor/jquery.bxslider.min.js" type="text/javascript"></script>
-    <!-- Sharer -->
-    <script src="./assets/js/vendor/sharer.js" type="text/javascript"></script>
-    <!-- sticky -->
-    <script src="./assets/js/vendor/sticky.min.js" type="text/javascript"></script>
-    <!-- Aos -->
-    <script src="./assets/js/vendor/aos.js" type="text/javascript"></script>
-    <!-- main file -->
-    <script src="./assets/js/main.js" type="text/javascript"></script>
-</body>
-
-</html>
+        <!--...::: Footer Section Start :::... -->
+            <!--...::: Footer-3 Section Start :::... -->
+            <footer id="section-footer-3">
+              <div class="bg-black text-white">
+                  <!-- Section Spacer -->
+                  <div class="py-20 xl:py-[130px]">
+                      <!-- Footer Top -->
+                      <div>
+                          <!-- Section Container -->
+                          <div class="global-container">
+                              <!-- Footer Content -->
+                              <div class="grid-col-1 grid items-center gap-10 md:grid-cols-2">
+                                  <!-- Section Content Block -->
+                                  <div>
+                                      <h1 class="font-raleway text-white">Let’s talk</h1>
+                                  </div>
+                                  <!-- Section Content Block -->
+                                  <div class="jos flex flex-col gap-10 md:gap-[50px]">
+                                      <p class="text-lg font-semibold leading-[1.33] md:text-xl lg:text-2xl">
+                                          Contact us to automate your business processes. Achieve results with 10x speed.
+                                      </p>
+                                  </div>
+                              </div>
+                              <!-- Footer Content -->
+  
+                              <!-- Footer Contact -->
+                              <div class="mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+                                  <div
+                                      class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                      <a href="https://meetings.hubspot.com/sanjeev13" target="_blank">Book a call</a>
+                                  </div>
+                                  <div
+                                      class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                      <a href="contact.html">Contact Us</a>
+                                  </div>
+                                  
+                              </div>
+                              <!-- Footer Contact -->
+                          </div>
+                          <!-- Section Container -->
+                      </div>
+                      <!-- Footer Top -->
+  
+                      <!-- Footer Bottom -->
+                      <div class="mt-[100px]">
+                          <!-- Section Container -->
+                          <div class="global-container">
+                              <!-- Footer Widgets Block -->
+                              <div
+                                  class="grid gap-x-10 gap-y-[60px] md:grid-cols-2 lg:flex lg:grid-cols-4 lg:justify-between lg:gap-x-20">
+                                  <!-- Footer Widget Item -->
+                                  <div class="flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]">
+                                      <a href="index.html" class="inline-block"><img src="assets/img/DCDV%20full%20White.png"
+                                              alt="logo" width="96" height="24" /></a>
+                                      <p>
+                                          Our mission is to harness the power of AI to solve complex
+                                          business challenges & decision-makers with data-driven
+                                          insights, and enhance user experiences across digital
+                                          platforms.
+                                      </p>
+                                      <p>
+                                          &copy; Copyright 2025-27, All Rights Reserved by DATACLAP
+                                      </p>
+                                  </div>
+                                  <!-- Footer Widget Item -->
+  
+                                  <!-- Footer Widget Item -->
+                                  <div class="flex flex-col gap-y-6">
+                                      
+  
+                                      <!-- Footer Navbar -->
+                                      <ul class="flex flex-col gap-y-[10px] capitalize">
+                                         
+                                          <li>
+                                              <a href="https://dataclap.co target=_blank"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Training data</a>
+                                          </li>
+                                          <li>
+                                              <a href="https://devops.dataclap.co target=_blank"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">DevOps</a>
+                                          </li>
+                                          <li>
+                                              <a href="https://devops.dataclap.co target=_blank"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">MLOps</a>
+                                          </li>
+                                          
+                                      </ul>
+                                  </div>
+                                  <!-- Footer Widget Item -->
+  
+                                  <!-- Footer Widget Item -->
+                                  <div class="flex flex-col gap-y-6">
+                                      
+  
+                                      <!-- Footer Navbar -->
+                                      <ul class="flex flex-col gap-y-[10px] capitalize">
+                                          <li>
+                                              <a href="NoCode.html"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">No Code</a>
+                                          </li>
+                                          <li>
+                                              <a href="wfa.html"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Workflow Automation</a>
+                                          </li>
+                                          <li>
+                                              <a href="faq-2.html"
+                                                  class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">FAQ</a>
+                                          </li>
+                                         
+                                      </ul>
+                                  </div>
+                                  <!-- Footer Widget Item -->
+  
+                                  <!-- Footer Widget Item -->
+                                  <div class="flex flex-col gap-y-6">
+                                      
+  
+                                      <!-- Footer Navbar -->
+                                      <ul class="flex flex-col gap-y-[15px] capitalize">
+                                          
+                                          <li>
+                                              <a href="http://www.twitter.com" class="group flex items-center gap-x-3">
+                                                  
+                                                  <span class="inline-block flex-1">Terms & Conditions</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a href="http://www.instagram.com" class="group flex items-center gap-x-3">
+                                                  
+                                                  <span class="inline-block flex-1">Privacy Policy</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a href="http://www.linkedin.com" class="group flex items-center gap-x-3">
+                                                  <div
+                                                      class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet">
+                                                      <img src="assets/img/th-1/linkedin-icon-white.svg"
+                                                          alt="linkedin-icon-white" width="14" height="14" />
+                                                  </div>
+                                                  <span class="inline-block flex-1">LinkedIn</span>
+                                              </a>
+                                          </li>
+                                        
+                                      </ul>
+                                  </div>
+                                  <!-- Footer Widget Item -->
+                              </div>
+                              <!-- Footer Widgets Block -->
+                          </div>
+                          <!-- Section Container -->
+                      </div>
+                      <!-- Footer Bottom -->
+                  </div>
+                  <!-- Section Spacer -->
+              </div>
+          </footer>
+          <!--...::: Footer-3 Section End :::... -->
+  
+      </div>
+  
+      <!--Vendor js-->
+      <script src="assets/js/vendors/counterup.js" type="module"></script>
+      <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+      <script src="assets/js/vendors/fslightbox.js"></script>
+      <script src="assets/js/vendors/jos.min.js"></script>
+      <script src="assets/js/vendors/menu.js"></script>
+  
+      <!-- Main js -->
+      <script src="assets/js/main.js"></script>
+  </body>
+  
+  </html>
