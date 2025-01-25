@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATACLAP DIGITAL Workflow Automation Solutions</title>
+    <meta name="description" content="DATACLAP is a leading workflow automation agency specializing in Activepieces, Automatisch, n8n and Zapier. We automate your sales, marketing, and business processes to save time, reduce costs, and improve accuracy. Contact us for tailored automation solutions." />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+    .logo-container {
+      display: flex; /* Aligns the logos in a row */
+     
+      gap: 20px; /* Adds spacing between the logos */
+      align-items: center; /* Aligns logos vertically */
+    }
+    .logo-container img {
+      height: 25px; /* Adjusts the logo size */
+      width: auto; /* Maintains aspect ratio */
+    }
+    h2 {
+      text-align: center; /* Centers the heading */
+      font-family: Arial, sans-serif;
+    }
+        
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .logos {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .logos img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">   
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/DCDV_FULL_B.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                               
+                                
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Services
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="https://dataclap.co/" target="_blank">Training Data</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="devops.html">DevOps</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="mlops.html">MLOps</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="NoCode.html">No Code</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="wfa.html">Workflow Automation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                             <li class="nav-item">
+                                    <a href="techstack.html" class="nav-link-item">Techstack</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Resources
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-3">
+                                        
+                                       
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="faq-2.html" data-menu-get="h3" class="drop-trigger">FAQ
+                                              
+                                            </a>
+                                           
+                                        </li>
+                                   
+                                        <li class="sub-menu--item">
+                                            <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
+                                            </a>
+                                        </li>
+                                        
+
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a href="career.html" class="nav-link-item">Careers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                       
+                        <a href="contact.html"
+                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Contact</a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+<div class="h-[50px] w-[50px]">
+    </div><div class="h-[50px] w-[50px]">
+    </div>
+        <main class="main-wrapper relative overflow-hidden">
+                     <!--...::: Hero Section Start :::... -->
+            <section id="hero-section">
+                <!-- Section Spacer -->
+               <div class="container">
+                   <div style="text-align: center;">
+  <h2>Tech Stack</h2>
+   </div>
+        <div class="section">
+            <div class="section-title"><h3><b>Containerization</b></h3></div>
+            <div class="logo-container">
+                <img src="src/containerization/logo1.png" alt="kubernetes" >
+                <img src="src/containerization/logo2.png" alt="docker" >
+                <img src="src/containerization/logo3.png" alt="minikube">
+                <img src="src/containerization/logo4.png" alt="containerd">
+                <img src="src/containerization/logo5.png" alt="helm">
+                <img src="src/containerization/logo6.png" alt="openshift">
+            </div> 
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+        <div class="section">
+            <div class="section-title"><h3><b>Virtualization</b></h3></div>
+            <div class="logo-container">
+                <img src="src/Virtualization/logo1.png" alt="openstack">
+                <img src="src/Virtualization/logo2.png" alt="vmware">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+        <div class="section">
+            <div class="section-title"><h3><b>Infrastructure as a Code</b></h3></div>
+            <div class="logo-container">
+                <img src="src/IAAC/logo1.png" alt="terraform">
+                 <img src="src/IAAC/logo2.png" alt="puppet">
+                <img src="src/IAAC/logo3.png" alt="vagrant cloud">
+                <img src="src/IAAC/logo4.png" alt="ansible">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+                   <div class="section">
+            <div class="section-title"><h3><b>DevSecOps</b></h3></div>
+            <div class="logo-container">
+                <img src="src/devsecops/logo1.png" alt="terrascan">
+                 <img src="src/devsecops/logo2.png" alt="synopsys">
+                <img src="src/devsecops/logo3.png" alt="sonar">
+                <img src="src/devsecops/logo4.png" alt="synk">
+                <img src="src/devsecops/logo5.png" alt="contrast">
+                <img src="src/devsecops/logo6.png" alt="anchore">
+                <img src="src/devsecops/logo7.png" alt="veracode">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+                   <div class="section">
+            <div class="section-title"><h3><b>Monitoring & Logging</b></h3></div>
+            <div class="logo-container">
+                <img src="src/Monioring/logo1.png" alt="grafana labs">
+                 <img src="src/Monioring/logo2.png" alt="prometheus">
+                <img src="src/Monioring/logo3.png" alt="new relic">
+                <img src="src/Monioring/logo4.png" alt="splunk">
+                <img src="src/Monioring/logo5.png" alt="datadog">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+                   <div class="section">
+            <div class="section-title"><h3><b>CI/CD</b></h3></div>
+            <div class="logo-container">
+                <img src="src/CICD/logo1.png" alt="jenkins">
+                <img src="src/CICD/logo2.png" alt="grade enterprise">
+                <img src="src/CICD/logo3.png" alt="gitlab">
+                <img src="src/CICD/logo4.png" alt="teamcity">
+                <img src="src/CICD/logo5.png" alt="maven">
+                <img src="src/CICD/logo6.png" alt="teamcity">
+                <img src="src/CICD/logo7.png" alt="udeploy">
+                <img src="src/CICD/logo8.png" alt="azure pipeline">
+                <img src="src/CICD/logo9.png" alt="code pipeline">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+                   <div class="section">
+            <div class="section-title"><h3><b>Cloud</b></h3></div>
+            <div class="logo-container">
+                <img src="src/cloud/logo1.png" alt="vultr">
+                <img src="src/cloud/logo2.png" alt="aws">
+                <img src="src/cloud/logo3.png" alt="azure">
+                <img src="src/cloud/logo4.png" alt="cloud">
+            </div>
+        </div>
+                </div>
+                <div class="container">
+                   <div class="section">
+            <div class="section-title"><h3><b>No Code/Low code</b></h3></div>
+            <div class="logo-container">
+                <img src="src/nocodelowcode/logo1.png" alt="appsmith">
+                <img src="src/nocodelowcode/logo2.png" alt="nocodb">
+                <img src="src/nocodelowcode/logo3.png" alt="flutterflow"> 
+                <img src="src/nocodelowcode/logo4.png" alt="budibase">
+                <img src="src/nocodelowcode/logo5.png" alt="retool">
+            </div>
+        </div><div class="h-[30px] w-[30px]">
+    </div>
+               <div class="section">
+            <div class="section-title"><h3><b>Workflow Automation</b></h3></div>
+            <div class="logo-container">
+                <img src="src/workflow/logo1.png" alt="n8n">
+                <img src="src/workflow/logo2.png" alt="activepieces">
+                <img src="src/workflow/logo3.png" alt="automatisch">
+                <img src="src/workflow/logo4.png" alt="zapier">
+            </div>
+        </div>    <div class="h-[30px] w-[30px]">
+    </div>
+                    <div class="section">
+            <div class="section-title"><h3><b>CMS</b></h3></div>
+            <div class="logo-container">
+                <img src="src/cms/logo1.png" alt="payload">
+                <img src="src/cms/logo2.png" alt="strapi">
+                <img src="src/cms/logo3.png" alt="directus">
+                
+            </div>
+        </div>    
+    </div>
+                <div class="container">
+                     <div class="section">
+            <div class="section-title"><h3><b>AI</b></h3></div>
+            <div class="logo-container">
+                <img src="src/ai/logo1.png" alt="crewai">
+                <img src="src/ai/logo2.png" alt="langfuse">
+                <img src="src/ai/logo3.png" alt="mistralai">
+                <img src="src/ai/logo4.png" alt="openai">
+                <img src="src/ai/logo5.png" alt="langflow">
+            </div>
+        </div>    
+                    <div class="h-[30px] w-[30px]">
+    </div>
+                     <div class="section">
+            <div class="section-title"><h3><b>CDN</b></h3></div>
+            <div class="logo-container">
+                <img src="src/cdn/logo1.png" alt="crewai">
+                <img src="src/cdn/logo2.png" alt="langfuse">
+                <img src="src/cdn/logo3.png" alt="mistralai">
+                <img src="src/cdn/logo4.png" alt="openai">
+            </div>
+        </div>    
+                </div>
+            </section>
+            <!--...::: Content Section End :::... -->
+           <br><br><br>          
+        </main>
+
+        
+        <!--...::: Footer Section Start :::... -->
+            <!--...::: Footer-3 Section Start :::... -->
+        <footer id="section-footer-3">
+            <div class="bg-black text-white">
+                <!-- Section Spacer -->
+                <div class="py-20 xl:py-[130px]">
+                    <!-- Footer Top -->
+                    <div>
+                        <!-- Section Container -->
+                        <div class="global-container">
+                            <!-- Footer Content -->
+                            <div class="grid-col-1 grid items-center gap-10 md:grid-cols-2">
+                                <!-- Section Content Block -->
+                                <div>
+                                    <h1 class="font-raleway text-white">Let’s talk</h1>
+                                </div>
+                                <!-- Section Content Block -->
+                                <div class="jos flex flex-col gap-10 md:gap-[50px]">
+                                    <p class="text-lg font-semibold leading-[1.33] md:text-xl lg:text-2xl">
+                                        Contact us to automate your business processes. Achieve results with 10x speed.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Footer Content -->
+
+                            <!-- Footer Contact -->
+                            <div class="mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+                                <div
+                                    class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                    <a href="https://meetings.hubspot.com/sanjeev13" target="_blank">Book a call</a>
+                                </div>
+                                <div
+                                    class="rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl">
+                                    <a href="contact.html">Contact Us</a>
+                                </div>
+                                
+                            </div>
+                            <!-- Footer Contact -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Top -->
+
+                    <!-- Footer Bottom -->
+                    <div class="mt-[100px]">
+                        <!-- Section Container -->
+                        <div class="global-container">
+                            <!-- Footer Widgets Block -->
+                            <div
+                                class="grid gap-x-10 gap-y-[60px] md:grid-cols-2 lg:flex lg:grid-cols-4 lg:justify-between lg:gap-x-20">
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]">
+                                    <a href="index.html" class="inline-block"><img src="assets/img/DCDV%20full%20White.png"
+                                            alt="logo" width="96" height="24" /></a>
+                                    <p>
+                                        Our mission is to harness the power of AI to solve complex
+                                        business challenges & decision-makers with data-driven
+                                        insights, and enhance user experiences across digital
+                                        platforms.
+                                    </p>
+                                    <p>
+                                        &copy; Copyright 2025-27, All Rights Reserved by DATACLAP
+                                    </p>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                       
+                                        <li>
+                                            <a href="https://dataclap.co/" target="_blank"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Training data</a>
+                                        </li>
+                                        <li>
+                                            <a href="devops.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">DevOps</a>
+                                        </li>
+                                        <li>
+                                            <a href="mlops.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">MLOps</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                        <li>
+                                            <a href="NoCode.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">No Code</a>
+                                        </li>
+                                        <li>
+                                            <a href="wfa.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Workflow Automation</a>
+                                        </li>
+                                        <li>
+                                            <a href="faq-2.html"
+                                                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">FAQ</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6">
+                                    
+
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[15px] capitalize">
+                                        
+                                        <li>
+                                            <a href="tandc.html" class="group flex items-center gap-x-3">
+                                                
+                                                <span class="inline-block flex-1">Terms & Conditions</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tandc.html" class="group flex items-center gap-x-3">
+                                                
+                                                <span class="inline-block flex-1">Privacy Policy</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/company/dataclap/" target="_blank" class="group flex items-center gap-x-3">
+                                                <div
+                                                    class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet">
+                                                    <img src="assets/img/th-1/linkedin-icon-white.svg"
+                                                        alt="linkedin-icon-white" width="14" height="14" />
+                                                </div>
+                                                <span class="inline-block flex-1">LinkedIn</span>
+                                            </a>
+                                        </li>
+                                      
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+                            </div>
+                            <!-- Footer Widgets Block -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Bottom -->
+                </div>
+                <!-- Section Spacer -->
+            </div>
+        </footer>
+        <!--...::: Footer-3 Section End :::... -->
+
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
